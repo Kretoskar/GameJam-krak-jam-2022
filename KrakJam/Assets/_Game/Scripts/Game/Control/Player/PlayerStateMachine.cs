@@ -13,12 +13,12 @@ namespace Game.Control
     [RequireComponent(typeof(PlayerStateMove))]
     public class PlayerStateMachine : StateMachine
     {
-        [SerializeField, HideInInspector] private PlayerStateIdle idleState;
-        [SerializeField, HideInInspector] private PlayerStateMove moveState;
+        private PlayerStateIdle idleState;
+        private PlayerStateMove moveState;
 
         private PlayerInput playerInput;
 
-        private void OnValidate()
+        private void Awake()
         {
             idleState = GetComponent<PlayerStateIdle>();
             moveState = GetComponent<PlayerStateMove>();

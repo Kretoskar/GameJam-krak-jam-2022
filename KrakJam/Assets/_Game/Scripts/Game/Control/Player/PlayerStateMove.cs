@@ -11,10 +11,10 @@ namespace Game.Control.Player
     {
         [SerializeField] [Range(-100, 100)] private float moveSpeed = 10;
         
-        [SerializeField, HideInInspector] private PlayerInput playerInput;
-        [SerializeField, HideInInspector] private Rigidbody2D rb;
+        private PlayerInput playerInput;
+        private Rigidbody2D rb;
 
-        private void OnValidate()
+        private void Awake()
         {
             playerInput = GetComponent<PlayerInput>();
             rb = GetComponent<Rigidbody2D>();
