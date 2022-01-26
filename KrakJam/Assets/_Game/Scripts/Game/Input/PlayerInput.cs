@@ -8,7 +8,7 @@ namespace Game.Input
 {
     public class PlayerInput : MonoBehaviour
     {
-        private Camera mainCam;
+        private UnityEngine.Camera mainCam;
         
         public Vector2 AxisInput => new Vector2(UnityEngine.Input.GetAxisRaw("Horizontal"), UnityEngine.Input.GetAxisRaw("Vertical"));
 
@@ -18,7 +18,7 @@ namespace Game.Input
 
         private void Awake()
         {
-            mainCam = Camera.main;
+            mainCam = UnityEngine.Camera.main;
         }
         
         private void Update()
