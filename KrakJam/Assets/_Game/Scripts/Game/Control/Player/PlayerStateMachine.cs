@@ -36,7 +36,7 @@ namespace Game.Control
                 ChangeState(idleState);
             }
             
-            _currentState.Execute();
+            currentState.Execute();
         }
     }
 }
