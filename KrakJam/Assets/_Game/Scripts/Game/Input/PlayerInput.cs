@@ -10,7 +10,7 @@ namespace Game.Input
     {
         private Camera mainCam;
         
-        public Vector2 AxisInput => new Vector2(UnityEngine.Input.GetAxis("Horizontal"), UnityEngine.Input.GetAxis("Vertical"));
+        public Vector2 AxisInput => new Vector2(UnityEngine.Input.GetAxisRaw("Horizontal"), UnityEngine.Input.GetAxisRaw("Vertical"));
 
         public Vector2 MousePos => mainCam.ScreenToWorldPoint(UnityEngine.Input.mousePosition);
 

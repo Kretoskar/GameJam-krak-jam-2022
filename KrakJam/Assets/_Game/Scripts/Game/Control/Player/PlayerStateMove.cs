@@ -27,7 +27,7 @@ namespace Game.Control.Player
 
         public void Execute()
         {
-            rb.MovePosition(rb.position + playerInput.AxisInput.normalized * Time.deltaTime * moveSpeed);
+            rb.MovePosition(rb.position + playerInput.AxisInput.normalized * Time.fixedDeltaTime * moveSpeed);
         }
 
         public void Exit()

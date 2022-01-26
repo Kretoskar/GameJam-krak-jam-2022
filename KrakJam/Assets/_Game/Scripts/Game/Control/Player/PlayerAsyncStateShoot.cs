@@ -4,6 +4,7 @@ using Game.Combat;
 using Game.Control;
 using Game.Input;
 using UnityEngine;
+using UnityEngine.Pool;
 
 namespace Game.Control.Player
 {
@@ -14,9 +15,24 @@ namespace Game.Control.Player
         
         private PlayerInput playerInput;
 
+        private ObjectPool<Bullet> bulletPool;
+
         private void Awake()
         {
             playerInput = GetComponent<PlayerInput>();
+        }
+
+        private void Start()
+        {
+            bulletPool = new ObjectPool<Bullet>(
+                InstantiatePrefab,
+                GetFromPool,
+                AddToPool,
+                bullet => { Destroy(bullet.gameObject);},
+                true,
+                100,
+                1000
+            );
         }
 
         private void OnEnable()
@@ -51,12 +67,39 @@ namespace Game.Control.Player
 
         private void Shoot()
         {
+            bulletPool.Get();
+        }
+
+        private Bullet InstantiatePrefab()
+        {
             var spawnedBullet = 
                 Instantiate(bullet, 
                     (Vector2) transform.position + (playerInput.MousePos - (Vector2) transform.position).normalized * spawnDistance,
-                Quaternion.identity);
+                    Quaternion.identity);
             
-            spawnedBullet.GetComponent<Bullet>().Shoot();
+            spawnedBullet.GetComponent<Bullet>().Shoot(DestroyBullet);
+
+            return spawnedBullet;
+        }
+
+        private void GetFromPool(Bullet bullet)
+        {
+            bullet.gameObject.SetActive(true);
+            bullet.transform.position = (Vector2) transform.position +
+                                        (playerInput.MousePos - (Vector2) transform.position).normalized *
+                                        spawnDistance;
+            bullet.Shoot(DestroyBullet);
+        }
+
+
+        private void AddToPool(Bullet bullet)
+        {
+            bullet.gameObject.SetActive(false);
+        }
+
+        public void DestroyBullet(Bullet bullet)
+        {
+            bulletPool.Release(bullet);
         }
     }
 }
