@@ -22,9 +22,14 @@ namespace Game.Combat
         public override void GetHit()
         {
             currentHealh--;
+            
+            if (currentHealh < 0) currentHealh = 0;
+            
             if (currentHealh == 0)
             {
+                HideHeart(currentHealh);
                 Die();
+                return;
             }
 
             HideHeart(currentHealh);
@@ -32,7 +37,7 @@ namespace Game.Combat
 
         private void Die()
         {
-            
+            print("u dead");
         }
 
         public override void Heal()

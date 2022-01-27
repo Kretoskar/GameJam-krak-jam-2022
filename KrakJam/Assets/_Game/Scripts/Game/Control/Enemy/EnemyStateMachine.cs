@@ -6,35 +6,48 @@ using UnityEngine;
 
 namespace Game.Control.Enemy
 {
-    [RequireComponent(typeof(EnemyStateIdle))]
+    [RequireComponent(typeof(EnemyStateAttack))]
     [RequireComponent(typeof(EnemyStateChase))]
     [RequireComponent(typeof(AStarUnit))]
     public class EnemyStateMachine : StateMachine
     {
-        [SerializeField] private float attackRange = 1;
-        
-        private EnemyStateIdle idleState;
+        [SerializeField] private float attackRangeMin = 1;
+        [SerializeField] private float attackRangeMax = 1.5f;
+
+        private EnemyStateAttack attackState;
         private EnemyStateChase chaseState;
         private AStarUnit astarUnit;
 
         private void Awake()
         {
-            idleState = GetComponent<EnemyStateIdle>();
+            attackState = GetComponent<EnemyStateAttack>();
             chaseState = GetComponent<EnemyStateChase>();
             astarUnit = GetComponent<AStarUnit>();
+        }
+
+        private void Start()
+        {
+            ChangeState(attackState);
         }
 
         void Update()
         {
             float distance = Vector2.Distance(transform.position, astarUnit.ChooseClosestTarget().position);
-            
-            if(distance > attackRange)
-                ChangeState(chaseState);
-            else
-                ChangeState(idleState);
-            
+
+            if (ReferenceEquals(currentState, attackState))
+            {
+                if (distance > attackRangeMax)
+                    ChangeState(chaseState);
+            }
+            else if (ReferenceEquals(currentState, chaseState))
+            {
+                if (distance < attackRangeMin)
+                {
+                    ChangeState(attackState);
+                }
+            }
+
             currentState?.Execute();
         }
     }
-
 }

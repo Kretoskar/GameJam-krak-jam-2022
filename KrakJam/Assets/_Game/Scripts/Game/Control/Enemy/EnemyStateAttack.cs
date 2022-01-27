@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Game.Control.Enemy
 {
-    public class EnemyStateIdle : MonoBehaviour, IState
+    public class EnemyStateAttack : MonoBehaviour, IState
     {
         
         public void Enter(StateMachine sm)
