@@ -13,7 +13,18 @@ namespace Game.AI.Astar
 
         private void Start()
         {
-            PathRequestManager.RequestPath(transform.position, Target.position, OnPathFound);
+            StartCoroutine(FindPathContinously());
+        }
+
+        private IEnumerator FindPathContinously()
+        {
+            while (true)
+            {
+                PathRequestManager.RequestPath(transform.position, Target.position, OnPathFound);
+                yield return  new WaitForSeconds(2);
+            }
+
+            yield return null;
         }
 
         private void OnPathFound(Vector3[] newPath, bool pathSuccessful)
@@ -37,6 +48,8 @@ namespace Game.AI.Astar
                     targetIndex++;
                     if (targetIndex >= path.Length)
                     {
+                        targetIndex = 0;
+                        path = new Vector3[0];
                         yield break;
                     }
 

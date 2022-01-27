@@ -32,7 +32,7 @@ namespace Game.AI.Astar
             Node startNode = grid.NodeFromWorldPoint(startPos);
             Node targetNode = grid.NodeFromWorldPoint(targetPos);
 
-            if (startNode.Walkable && targetNode.Walkable)
+            if (targetNode.Walkable)
             {
                 Heap<Node> openSet = new Heap<Node>(grid.MaxSize);
                 HashSet<Node> closedSet = new HashSet<Node>();
@@ -65,6 +65,10 @@ namespace Game.AI.Astar
                             if (!openSet.Contains(neighbour))
                             {
                                 openSet.Add(neighbour);
+                            }
+                            else
+                            {
+                                openSet.UpdateItem(neighbour);
                             }
                         }
                     }
