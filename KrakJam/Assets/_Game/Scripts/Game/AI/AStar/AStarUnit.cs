@@ -20,8 +20,10 @@ namespace Game.AI.Astar
         {
             while (true)
             {
+                targetIndex = 0;
+                path = new Vector3[0];
                 PathRequestManager.RequestPath(transform.position, Target.position, OnPathFound);
-                yield return  new WaitForSeconds(2);
+                yield return  new WaitForSeconds(.1f);
             }
 
             yield return null;
@@ -55,8 +57,6 @@ namespace Game.AI.Astar
 
                     currentWaypoint = path[targetIndex];
                 }
-
-                transform.position = Vector3.MoveTowards(transform.position, currentWaypoint, speed * Time.deltaTime);
                 yield return null;
             }
         }
