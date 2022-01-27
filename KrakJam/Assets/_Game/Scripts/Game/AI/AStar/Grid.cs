@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditorInternal;
@@ -7,6 +8,8 @@ namespace Game.AI.Astar
 {
     public class Grid : MonoBehaviour
     {
+        [SerializeField] private Transform player;
+        
         [SerializeField] private LayerMask unwalkableMask;
         [SerializeField] private Vector2 gridWorldSize;
         [SerializeField] private float nodeRadius;
@@ -24,6 +27,19 @@ namespace Game.AI.Astar
             CreateGrid();
         }
 
+        public Node NodeFromWorldPoint(Vector3 worldPosition)
+        {
+            float percentX = (worldPosition.x + gridWorldSize.x/2) / gridWorldSize.x;
+            float percentY = (worldPosition.y + gridWorldSize.y/2) / gridWorldSize.y;
+            percentX = Mathf.Clamp01(percentX);
+            percentY = Mathf.Clamp01(percentY);
+
+            int x = Mathf.RoundToInt((gridSizeX - 1) * percentX);
+            int y = Mathf.RoundToInt((gridSizeY - 1) * percentY);
+
+            return grid[x, y];
+        }
+        
         private void CreateGrid()
         {
             grid = new Node[gridSizeX,  gridSizeY];
@@ -36,7 +52,7 @@ namespace Game.AI.Astar
                 {
                     Vector2 worldPoint = (Vector2)worldbottomLeft +
                                          new Vector2(x * nodeDiamater + nodeRadius, y * nodeDiamater + nodeRadius);
-                    bool walkable = !(Physics2D.OverlapCircle(worldPoint, nodeRadius));
+                    bool walkable = !(Physics2D.OverlapCircle(worldPoint, nodeRadius, unwalkableMask));
                     grid[x,y] = new Node(walkable, worldPoint);
                 }
             }
@@ -48,10 +64,13 @@ namespace Game.AI.Astar
 
             if (grid != null)
             {
+                Node playerNode = NodeFromWorldPoint(player.position);
+
                 foreach (var node in grid)
                 {
                     Gizmos.color = node.Walkable ? Color.white : Color.red;
-                    Gizmos.DrawCube(node.WorldPosition, Vector3.one * (nodeDiamater - 0.1f));
+                    if(playerNode == node) Gizmos.color = Color.cyan;
+                    Gizmos.DrawCube(node.WorldPosition, Vector3.one * (nodeDiamater - 0.01f));
                 }
             }
         }
