@@ -9,16 +9,10 @@ namespace Game.Combat
 {
     public class PlayerHealth : Health
     {
-        [SerializeField] private int maxHealth = 3;
         [SerializeField] private List<GameObject> hearts;
 
-        private int currentHealh;
-
-        private void Awake()
-        {
-            currentHealh = maxHealth;
-        }
-
+        public Action Death;
+        
         public override void GetHit()
         {
             currentHealh--;
@@ -37,7 +31,7 @@ namespace Game.Combat
 
         private void Die()
         {
-            print("u dead");
+            Death?.Invoke();
         }
 
         public override void Heal()
