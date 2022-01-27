@@ -26,14 +26,19 @@ namespace Game.AI.Astar
 
             if (aStarUnit.Path.Length > 1)
             {
-                rb.MovePosition(rb.position +
-                                ((Vector2) aStarUnit.Path[1] - rb.position) * Time.fixedDeltaTime * moveSpeed);
+                Move(rb.position +
+                     ((Vector2) aStarUnit.Path[1] - rb.position) * Time.fixedDeltaTime * moveSpeed);
             }
             else
             {
-                rb.MovePosition(rb.position +
-                                ((Vector2) aStarUnit.Path[0] - rb.position) * Time.fixedDeltaTime * moveSpeed);
+                Move(rb.position +
+                     ((Vector2) aStarUnit.Path[0] - rb.position) * Time.fixedDeltaTime * moveSpeed);
             }
+        }
+
+        private void Move(Vector2 pos)
+        {
+            rb.MovePosition(pos);
         }
     }
 }
