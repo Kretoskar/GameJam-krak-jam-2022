@@ -17,6 +17,9 @@ GameObject:
   - component: {fileID: 9169318339204470991}
   - component: {fileID: 9169318339204472624}
   - component: {fileID: 1370348548}
+  - component: {fileID: 1370348555}
+  - component: {fileID: 1370348556}
+  - component: {fileID: 1370348557}
   m_Layer: 0
   m_Name: PlayerSoul
   m_TagString: Untagged
@@ -80,8 +83,8 @@ SpriteRenderer:
   m_SortingLayerID: 1242400815
   m_SortingLayer: -1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0, g: 0.7622583, b: 1, a: 1}
+  m_Sprite: {fileID: -418850636, guid: 082e7e3c6cf7c684ca0501445af2e4f7, type: 3}
+  m_Color: {r: 0, g: 0.7622583, b: 1, a: 0.5882353}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -135,7 +138,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &9169318339204470990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,3 +196,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 348203451726756063, guid: ce53b3c25e847224c823e52d673e178b, type: 3}
   spawnDistance: 0.5
+--- !u!95 &1370348555
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169318339204470984}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 523748086f456ee4097a48185bc1f09a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1370348556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169318339204470984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e9a0d30b035cf4ebb791e18c9095f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSoul: 1
+--- !u!114 &1370348557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169318339204470984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ce0f68beaae2d4fa7258cc220711d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

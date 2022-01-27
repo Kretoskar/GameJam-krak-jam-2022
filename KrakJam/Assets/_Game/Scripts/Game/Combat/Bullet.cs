@@ -40,6 +40,11 @@ namespace Game.Combat
 
         private void OnCollisionEnter2D(Collision2D col)
         {
+            Health health = col.gameObject.GetComponent<Health>();
+            
+            if(health != null)
+                health.GetHit();
+            
             destroyAction(this);
         }
     }
