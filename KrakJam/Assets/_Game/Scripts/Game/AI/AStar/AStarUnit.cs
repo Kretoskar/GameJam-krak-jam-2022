@@ -11,6 +11,8 @@ namespace Game.AI.Astar
         private Vector3[] path;
         private int targetIndex;
 
+        public Vector3[] Path => path;
+        
         private void Start()
         {
             StartCoroutine(FindPathContinously());
