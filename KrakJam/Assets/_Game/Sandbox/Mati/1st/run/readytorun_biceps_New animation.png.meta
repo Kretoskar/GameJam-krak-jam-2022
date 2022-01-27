@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,6 +66,42 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -78,7 +114,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22891bac1eb1694ca19e8658c9ac066
+      internalID: -1024210761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2720
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658a2a0bb3ad2f24aa1beb8b4be04022
+      internalID: 1015759291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_2
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2720
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca82f2206db60f4aad57739c1e37749
+      internalID: 920826374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_3
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2720
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfde948e71fb18246a72d831b0e62e3e
+      internalID: 1999978267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_4
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2720
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6966cc6ff7100294d87a5084fb084f06
+      internalID: 1186018399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_5
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 2720
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f57b89c3222c6f4bbc5332a68e2b134
+      internalID: -2122967279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_6
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2720
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0141d495e7ac6f44dade5d2f207ce562
+      internalID: 328977341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_7
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 2720
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8842e9afe2fa7134b9b67e144648a2d4
+      internalID: -1620751755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199dde3c301e62549b94ab0fa05d337c
+      internalID: 2017417593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2176
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa9871b346c6a94fb66a954cbd205f4
+      internalID: 180251071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2176
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c77b6f945f4034c85f9246b86bb99b
+      internalID: 1189763496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_11
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2176
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d559a690ca3a53e44bface7419c6432d
+      internalID: 1504622960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_12
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2181
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d6e6ac83df1654a9b551d51f1b66a7
+      internalID: -910511466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_13
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 2176
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551f722d4bb124041b66fe38c5fe009c
+      internalID: 1864711820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_14
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2176
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4686621706dbefc4ab16db9dbec0696c
+      internalID: 1954137389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_15
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 2176
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fbce60d70e0dd429f1a37f78147434
+      internalID: 307194429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f675abaac7076cf49ac1ebdcc9eec51d
+      internalID: -2145467602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1632
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a6e61e90110fe40b08ee571eef66db
+      internalID: -1479530289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_18
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1632
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce6e4903f5b5804bb136b250afc3b2f
+      internalID: 1921049903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_19
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1632
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200a62bf2209a19428b71c3842747b09
+      internalID: -1153536330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_20
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1632
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b78d3e433de7754cb881c015d4bd778
+      internalID: -218589673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_21
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1632
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2942ef21e0d454443b94f88756afae4e
+      internalID: -176618594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_22
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1637
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c51b3e049d64074f9bed563d237f8ae
+      internalID: -1486687778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_23
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 1632
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3ac4966fd977740bbc889abd724bcb
+      internalID: -1228021100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ee9c0ce88ba564581bf23ae82cfcda
+      internalID: 1308294410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_25
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1088
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1322b1125a45424d8aa526beff2a85a
+      internalID: -800175574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_26
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1088
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65e1f86d0b0ebc4595ffffafef66bd8
+      internalID: -1227270739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_27
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1088
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8579262dff32ca747a2dde1920dd2010
+      internalID: -1088847666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_28
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1088
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ea6467bf488c745be5f17d47dcd547
+      internalID: -543620377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_29
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1088
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3342e28ee65b1c5468bdd2b8ccfe94fd
+      internalID: 2095005579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_30
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1088
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc550f7d1c5ba348815beb23aa43e78
+      internalID: 1400372797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_31
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 1088
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fef54fcf359344f84f33ae8694acd5
+      internalID: -1866978729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e6a942143e7de4698cdf486c2f52df
+      internalID: -1146742409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_33
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 544
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c673dd094ce2147929e5665be816ae
+      internalID: 1136134267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_34
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 544
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28535233aaaaf864190aa8a538080537
+      internalID: 1120898670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_35
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 544
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54580872d351f824cb9e4c758926f67e
+      internalID: 603807080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_36
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 544
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5affa520caf604f8378e2a70900539
+      internalID: -326169907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_37
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 544
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8eae54522f3ff4196c40087ab72f6e
+      internalID: -625102745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_38
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 544
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87413bb4032608743afeaf34b06cb295
+      internalID: 1678740516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_39
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 544
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a501bab64a8c57c46a5dd64474b6e3fa
+      internalID: 469291903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3211cddcba943124bbb049c4f159c56c
+      internalID: 1291372292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_41
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b1add0d4f5dbe41b419322c1860444
+      internalID: 1147367750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_42
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ada109488872694c94a3d892f2c2dc9
+      internalID: 760769991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_43
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83b36c112ac6084598683f9f0821fed
+      internalID: 1506362003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_44
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d12cce201b099345b3947bf4741558e
+      internalID: 990405037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_45
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 5
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982294c8608ec8d4e9591a7a51435acf
+      internalID: -157639520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_46
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9730f1d1ef9764ea3f6871df6289ec
+      internalID: -2032560125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: readytorun_biceps_New animation_47
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 0
+        width: 544
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f59427b3f6d4f4d8c97acff42555d6
+      internalID: 1275652308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1133,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      readytorun_biceps_New animation_4: 1186018399
+      readytorun_biceps_New animation_36: -326169907
+      readytorun_biceps_New animation_39: 469291903
+      readytorun_biceps_New animation_37: -625102745
+      readytorun_biceps_New animation_21: -176618594
+      readytorun_biceps_New animation_25: -800175574
+      readytorun_biceps_New animation_45: -157639520
+      readytorun_biceps_New animation_2: 920826374
+      readytorun_biceps_New animation_3: 1999978267
+      readytorun_biceps_New animation_14: 1954137389
+      readytorun_biceps_New animation_42: 760769991
+      readytorun_biceps_New animation_17: -1479530289
+      readytorun_biceps_New animation_16: -2145467602
+      readytorun_biceps_New animation_28: -543620377
+      readytorun_biceps_New animation_20: -218589673
+      readytorun_biceps_New animation_0: -1024210761
+      readytorun_biceps_New animation_46: -2032560125
+      readytorun_biceps_New animation_34: 1120898670
+      readytorun_biceps_New animation_12: -910511466
+      readytorun_biceps_New animation_24: 1308294410
+      readytorun_biceps_New animation_40: 1291372292
+      readytorun_biceps_New animation_41: 1147367750
+      readytorun_biceps_New animation_38: 1678740516
+      readytorun_biceps_New animation_33: 1136134267
+      readytorun_biceps_New animation_13: 1864711820
+      readytorun_biceps_New animation_44: 990405037
+      readytorun_biceps_New animation_10: 1189763496
+      readytorun_biceps_New animation_9: 180251071
+      readytorun_biceps_New animation_47: 1275652308
+      readytorun_biceps_New animation_35: 603807080
+      readytorun_biceps_New animation_30: 1400372797
+      readytorun_biceps_New animation_1: 1015759291
+      readytorun_biceps_New animation_26: -1227270739
+      readytorun_biceps_New animation_8: 2017417593
+      readytorun_biceps_New animation_19: -1153536330
+      readytorun_biceps_New animation_23: -1228021100
+      readytorun_biceps_New animation_29: 2095005579
+      readytorun_biceps_New animation_31: -1866978729
+      readytorun_biceps_New animation_11: 1504622960
+      readytorun_biceps_New animation_5: -2122967279
+      readytorun_biceps_New animation_18: 1921049903
+      readytorun_biceps_New animation_15: 307194429
+      readytorun_biceps_New animation_32: -1146742409
+      readytorun_biceps_New animation_7: -1620751755
+      readytorun_biceps_New animation_43: 1506362003
+      readytorun_biceps_New animation_27: -1088847666
+      readytorun_biceps_New animation_6: 328977341
+      readytorun_biceps_New animation_22: -1486687778
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
