@@ -20,6 +20,8 @@ namespace Game.AI.Astar
 
         public List<Node> path;
 
+        public int MaxSize => gridSizeX * gridSizeY;
+        
         private void Start()
         {
             nodeDiamater = nodeRadius * 2;
@@ -67,7 +69,7 @@ namespace Game.AI.Astar
 
             return neighbours;
         }
-        
+
         private void CreateGrid()
         {
             grid = new Node[gridSizeX,  gridSizeY];

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Game.AI.Astar
 {
-    public class Node
+    public class Node : IHeapItem<Node>
     {
         private int gridX;
         private int gridY;
@@ -13,6 +13,7 @@ namespace Game.AI.Astar
         private int gCost;
         private int hCost;
         private Node parent;
+        private int heapIndex;
 
         public Node Parent
         {
@@ -64,6 +65,23 @@ namespace Game.AI.Astar
             this.worldPosition = worldPosition;
             this.gridX = gridX;
             this.gridY = gridY;
+        }
+
+        public int CompareTo(Node other)
+        {
+            int compare = FCost.CompareTo(other.FCost);
+            if (compare == 0)
+            {
+                compare = hCost.CompareTo(other.HCost);
+            }
+
+            return -compare;
+        }
+
+        public int HeapIndex
+        {
+            get { return heapIndex; }
+            set { heapIndex = value; }
         }
     }
 
