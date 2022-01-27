@@ -26,11 +26,11 @@ namespace Game.Combat
             rb = GetComponent<Rigidbody2D>();
         }
 
-        public void Shoot(Action<Bullet> destroyAction)
+        public void Shoot(Action<Bullet> destroyAction, Transform shooter)
         {
             this.destroyAction = destroyAction;
             
-            Vector2 diff = (playerInput.MousePos - (Vector2) transform.position).normalized;
+            Vector2 diff = (playerInput.MousePos - (Vector2) shooter.position).normalized;
 
             float rotZ = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, rotZ - 90);
@@ -41,6 +41,12 @@ namespace Game.Combat
         private void OnCollisionEnter2D(Collision2D col)
         {
             Health health = col.gameObject.GetComponent<Health>();
+
+            if (health == null && col.transform.parent != null)
+            {
+                health = col.transform.parent.GetComponent<Health>();
+            }
+                
             
             if(health != null)
                 health.GetHit();

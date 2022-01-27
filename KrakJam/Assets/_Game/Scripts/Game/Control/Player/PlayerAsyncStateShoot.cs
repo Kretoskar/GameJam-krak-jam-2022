@@ -77,7 +77,7 @@ namespace Game.Control.Player
                     (Vector2) transform.position + (playerInput.MousePos - (Vector2) transform.position).normalized * spawnDistance,
                     Quaternion.identity);
             
-            spawnedBullet.GetComponent<Bullet>().Shoot(DestroyBullet);
+            spawnedBullet.GetComponent<Bullet>().Shoot(DestroyBullet, transform);
 
             return spawnedBullet;
         }
@@ -88,7 +88,7 @@ namespace Game.Control.Player
             bullet.transform.position = (Vector2) transform.position +
                                         (playerInput.MousePos - (Vector2) transform.position).normalized *
                                         spawnDistance;
-            bullet.Shoot(DestroyBullet);
+            bullet.Shoot(DestroyBullet, transform);
         }
 
 
