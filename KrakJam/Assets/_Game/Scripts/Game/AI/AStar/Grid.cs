@@ -13,16 +13,15 @@ namespace Game.AI.Astar
         [SerializeField] private LayerMask unwalkableMask;
         [SerializeField] private Vector2 gridWorldSize;
         [SerializeField] private float nodeRadius;
+        [SerializeField] private bool showGizmos = true;
 
         private float nodeDiamater;
         private int gridSizeX, gridSizeY;
         private Node[,] grid;
 
-        public List<Node> path;
-
         public int MaxSize => gridSizeX * gridSizeY;
         
-        private void Start()
+        private void Awake()
         {
             nodeDiamater = nodeRadius * 2;
             gridSizeX = Mathf.RoundToInt(gridWorldSize.x / nodeDiamater);
@@ -92,16 +91,13 @@ namespace Game.AI.Astar
         {
             Gizmos.DrawWireCube(transform.position, new Vector3(gridWorldSize.x, gridWorldSize.y , 1));
 
-            if (grid != null)
+            if (grid != null && showGizmos)
             {
                 Node playerNode = NodeFromWorldPoint(player.position);
 
                 foreach (var node in grid)
                 {
                     Gizmos.color = node.Walkable ? Color.white : Color.red;
-                    if(path != null)
-                        if(path.Contains(node))
-                            Gizmos.color = Color.black;
                     Gizmos.DrawCube(node.WorldPosition, Vector3.one * (nodeDiamater - 0.01f));
                 }
             }
