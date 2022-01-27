@@ -35,7 +35,7 @@ namespace Game.AI.Astar
             yield return null;
         }
         
-        private Transform ChooseClosestTarget()
+        public Transform ChooseClosestTarget()
         {
             Transform minTarget = null;
             float minDist = Mathf.Infinity;

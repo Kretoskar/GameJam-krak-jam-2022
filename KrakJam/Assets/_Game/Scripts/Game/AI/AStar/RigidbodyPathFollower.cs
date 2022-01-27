@@ -12,6 +12,14 @@ namespace Game.AI.Astar
         private Rigidbody2D rb;
         private AStarUnit aStarUnit;
 
+        private bool shouldFollow;
+
+        public bool ShouldFollow
+        {
+            get => shouldFollow;
+            set => shouldFollow = value;
+        }
+
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -19,6 +27,12 @@ namespace Game.AI.Astar
         }
 
         private void Update()
+        {
+            if(shouldFollow)
+                TryMove();
+        }
+
+        private void TryMove()
         {
             Vector2 moveDir = Vector2.zero;
             
