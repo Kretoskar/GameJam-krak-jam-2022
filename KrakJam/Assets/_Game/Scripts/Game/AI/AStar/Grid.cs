@@ -18,6 +18,8 @@ namespace Game.AI.Astar
         private int gridSizeX, gridSizeY;
         private Node[,] grid;
 
+        public List<Node> path;
+
         private void Start()
         {
             nodeDiamater = nodeRadius * 2;
@@ -39,6 +41,32 @@ namespace Game.AI.Astar
 
             return grid[x, y];
         }
+
+        public List<Node> GetNeighbours(Node node)
+        {
+            List<Node> neighbours = new List<Node>();
+
+            for (int x = -1; x <= 1; x++)
+            {
+                for (int y = -1; y <= 1; y++)
+                {
+                    if (x == 0 && y == 0)
+                    {
+                        continue;
+                    }
+
+                    int checkX = node.GridX + x;
+                    int checkY = node.GridY + y;
+
+                    if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY)
+                    {
+                        neighbours.Add(grid[checkX, checkY]);
+                    }
+                }
+            }
+
+            return neighbours;
+        }
         
         private void CreateGrid()
         {
@@ -53,7 +81,7 @@ namespace Game.AI.Astar
                     Vector2 worldPoint = (Vector2)worldbottomLeft +
                                          new Vector2(x * nodeDiamater + nodeRadius, y * nodeDiamater + nodeRadius);
                     bool walkable = !(Physics2D.OverlapCircle(worldPoint, nodeRadius, unwalkableMask));
-                    grid[x,y] = new Node(walkable, worldPoint);
+                    grid[x,y] = new Node(walkable, worldPoint, x, y);
                 }
             }
         }
@@ -69,7 +97,9 @@ namespace Game.AI.Astar
                 foreach (var node in grid)
                 {
                     Gizmos.color = node.Walkable ? Color.white : Color.red;
-                    if(playerNode == node) Gizmos.color = Color.cyan;
+                    if(path != null)
+                        if(path.Contains(node))
+                            Gizmos.color = Color.black;
                     Gizmos.DrawCube(node.WorldPosition, Vector3.one * (nodeDiamater - 0.01f));
                 }
             }

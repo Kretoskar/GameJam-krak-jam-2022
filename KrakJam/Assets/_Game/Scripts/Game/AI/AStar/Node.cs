@@ -6,8 +6,43 @@ namespace Game.AI.Astar
 {
     public class Node
     {
+        private int gridX;
+        private int gridY;
         private bool walkable;
         private Vector3 worldPosition;
+        private int gCost;
+        private int hCost;
+        private Node parent;
+
+        public Node Parent
+        {
+            get => parent;
+            set => parent = value;
+        }
+
+        public int GCost
+        {
+            get => gCost;
+            set => gCost = value;
+        }
+
+        public int GridX
+        {
+            get => gridX;
+            set => gridX = value;
+        }
+
+        public int GridY
+        {
+            get => gridY;
+            set => gridY = value;
+        }
+
+        public int HCost
+        {
+            get => hCost;
+            set => hCost = value;
+        }
 
         public bool Walkable
         {
@@ -21,10 +56,14 @@ namespace Game.AI.Astar
             set => worldPosition = value;
         }
 
-        public Node(bool walkable, Vector3 worldPosition)
+        public int FCost => gCost + hCost;
+
+        public Node(bool walkable, Vector3 worldPosition, int gridX, int gridY)
         {
             this.walkable = walkable;
             this.worldPosition = worldPosition;
+            this.gridX = gridX;
+            this.gridY = gridY;
         }
     }
 
