@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 516
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -76,9 +76,1305 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: plato_idle_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a583da8e46c8e458e12acb6ec48273
+      internalID: -354102389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cc4974bca2f0a42b6f62adca435d2d
+      internalID: -1683307038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_2
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34104b3d8c8eb84587a44f731599c9d
+      internalID: 2072355600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_3
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfdbbdd46ecc5b40aa6a880ed4b65db
+      internalID: 2036654964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_4
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9525af5cb59645a43ba86d5f5cda88e7
+      internalID: -418850636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_5
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566fe87cf8f39c44fb41540f188352a7
+      internalID: -735392300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_6
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0a815ae32a8004a8a3dff72d47b7cd
+      internalID: -725321338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_7
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8960fc936a0125e4a8e45a8dc18032c2
+      internalID: 1359393664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_8
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fb159b7fc3095458bf08072ee92b94
+      internalID: -2094055315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_9
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd29f095f924c844a906f3378320f44f
+      internalID: 21456874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_10
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24424b22a1e6dcc4e9bcdad6ecdb038b
+      internalID: 2059561352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_11
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320acbadcc8c67b48b2ed926cc32a81d
+      internalID: -1021957241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_12
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec38769f6f86b74d91fbe1ea03388be
+      internalID: 998326671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_13
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c346523ad8de546a462f5e0700aab9
+      internalID: 1456983304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_14
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 1567.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5ed95d5cf6e774ca9a5f5998097747
+      internalID: 2007324901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adc08fc027518b47ace16a81d0c3fa6
+      internalID: 1192956007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c13f987d8d8cb468d054af431df628
+      internalID: -413491162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1f062d90dd4bb4886f8c4ce7a9512e
+      internalID: 1404634049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1976b787d51123342ac35c5288a95f56
+      internalID: -197590478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_19
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6c9fd31603a55408a6bcbda0cee755
+      internalID: 187325047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_20
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599dba7a89659d941a9c114287cdd4fc
+      internalID: 474175420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_21
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec489b3eda71e354abe7b4d36c760e67
+      internalID: -1979835993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_22
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6510612ab754ceb4a9a2e40f94942fa4
+      internalID: -40734090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_23
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20595bca4943f2345bec828f56b26f01
+      internalID: 143916610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_24
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee4bddffda1eab4ea25df8c69c70741
+      internalID: -657588407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_25
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b10c7258bad41c47967beb046829bea
+      internalID: 1809608815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_26
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17606d8d77c2844f80a37fd60d77cbc
+      internalID: -649737789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_27
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99104e6ca8919840aa9c1b99a25c556
+      internalID: 490174228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_28
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c0aae4218acea4fa1fcef382da2521
+      internalID: -2087910391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_29
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 1045.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b84e115e05362247a231b02ccf3f4ee
+      internalID: -2113390681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9609ba0aead2674592dfbe62a61b63b
+      internalID: -436824969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2d297efeb5f2d4bb66e1a0ea125da4
+      internalID: 736935739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_32
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b502a3ed65713f4786be3eae9577bbe
+      internalID: 1392256914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_33
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb26a77e3d417c744bc621c2852f9af5
+      internalID: -1408038813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_34
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a7b06ca9518064db102af1398cc6ce
+      internalID: -1329109407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_35
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eb510ad21e654429507cbab5d2d814
+      internalID: -1687256255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_36
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fec0c47d370d343bf28609b2548ad3
+      internalID: -2144618003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_37
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5041ad63bcc5c14479b729d7eace1e6f
+      internalID: -1805598401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_38
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641b581e23465f34ca005adcf4100e0d
+      internalID: 400067823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_39
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb53e005d436ee42bb268b3b2450c88
+      internalID: -560113603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_40
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21a8f84a26a1a14fad92c0a78a8cb30
+      internalID: -559027974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_41
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245b87f8492eeca4cab926652facc26e
+      internalID: -145208352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_42
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc6448dfcda4eb4daca350745a15f82
+      internalID: -2114566002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_43
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15dfdd07c010ce49bf15d340e089701
+      internalID: 1056666739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_44
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 523.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e4c5f5875b684c99b225351043858
+      internalID: -159129957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2043dbf43bee1514389341cb27c268e5
+      internalID: 1061957356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_46
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80203866430fb040b667aa23b90d605
+      internalID: 937159026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_47
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc18605f59cec4f4f901ec7980aaf0a5
+      internalID: -1665524703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_48
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7557efcd0e417428fc3fc3f0858940
+      internalID: -1035376496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_49
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d473c8eaf213ec54c860feed8621c70c
+      internalID: 2033063538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_50
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa49265923b67474cab6495a2e182baf
+      internalID: 1631137823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_51
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5308023343f89344eb15d39e6027269b
+      internalID: -1878830091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_52
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787aa74f3beea274c8e1861f58baff94
+      internalID: -1703888911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_53
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ee9806ee139ed49ac73834d1b130a4
+      internalID: 1987682601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_54
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee66b86bfa4d6eb43965cace11988b18
+      internalID: -220087057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_55
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c190faf3645fe94ca6903f064dffcb1
+      internalID: -849316953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_56
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a17c39e29b4bfb40ab6ed02f886356d
+      internalID: 1716110983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_57
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6944a2633aee0fe418ff59990dfe94a7
+      internalID: 227721192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_58
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5336372ab3b41439a17b31ed530c83
+      internalID: 918814223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plato_idle_right_59
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 1.5
+        width: 258
+        height: 522.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cede48993c52244817ef0a21b52fb8
+      internalID: 1106081656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1385,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plato_idle_right_27: 490174228
+      plato_idle_right_14: 2007324901
+      plato_idle_right_38: 400067823
+      plato_idle_right_59: 1106081656
+      plato_idle_right_50: 1631137823
+      plato_idle_right_56: 1716110983
+      plato_idle_right_35: -1687256255
+      plato_idle_right_7: 1359393664
+      plato_idle_right_36: -2144618003
+      plato_idle_right_43: 1056666739
+      plato_idle_right_53: 1987682601
+      plato_idle_right_57: 227721192
+      plato_idle_right_24: -657588407
+      plato_idle_right_33: -1408038813
+      plato_idle_right_49: 2033063538
+      plato_idle_right_18: -197590478
+      plato_idle_right_34: -1329109407
+      plato_idle_right_13: 1456983304
+      plato_idle_right_55: -849316953
+      plato_idle_right_2: 2072355600
+      plato_idle_right_51: -1878830091
+      plato_idle_right_30: -436824969
+      plato_idle_right_21: -1979835993
+      plato_idle_right_15: 1192956007
+      plato_idle_right_32: 1392256914
+      plato_idle_right_44: -159129957
+      plato_idle_right_31: 736935739
+      plato_idle_right_48: -1035376496
+      plato_idle_right_1: -1683307038
+      plato_idle_right_28: -2087910391
+      plato_idle_right_17: 1404634049
+      plato_idle_right_5: -735392300
+      plato_idle_right_40: -559027974
+      plato_idle_right_6: -725321338
+      plato_idle_right_37: -1805598401
+      plato_idle_right_10: 2059561352
+      plato_idle_right_29: -2113390681
+      plato_idle_right_20: 474175420
+      plato_idle_right_12: 998326671
+      plato_idle_right_41: -145208352
+      plato_idle_right_47: -1665524703
+      plato_idle_right_42: -2114566002
+      plato_idle_right_11: -1021957241
+      plato_idle_right_46: 937159026
+      plato_idle_right_54: -220087057
+      plato_idle_right_8: -2094055315
+      plato_idle_right_3: 2036654964
+      plato_idle_right_22: -40734090
+      plato_idle_right_39: -560113603
+      plato_idle_right_58: 918814223
+      plato_idle_right_0: -354102389
+      plato_idle_right_25: 1809608815
+      plato_idle_right_16: -413491162
+      plato_idle_right_9: 21456874
+      plato_idle_right_26: -649737789
+      plato_idle_right_52: -1703888911
+      plato_idle_right_19: 187325047
+      plato_idle_right_4: -418850636
+      plato_idle_right_45: 1061957356
+      plato_idle_right_23: 143916610
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
