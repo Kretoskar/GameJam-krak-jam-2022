@@ -20,6 +20,8 @@ namespace Game.AI.Astar
 
         private void Update()
         {
+            Vector2 moveDir = Vector2.zero;
+            
             if (aStarUnit.Path == null || aStarUnit.Path.Length == 0) return;
 
             if (aStarUnit.Path.Length > 1)

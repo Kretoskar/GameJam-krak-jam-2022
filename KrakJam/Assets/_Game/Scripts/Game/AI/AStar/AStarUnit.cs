@@ -6,7 +6,8 @@ namespace Game.AI.Astar
 {
     public class AStarUnit : MonoBehaviour
     {
-        public Transform Target;
+        [SerializeField] private Transform[] Targets;
+        
         private float speed = 10;
         private Vector3[] path;
         private int targetIndex;
@@ -24,11 +25,33 @@ namespace Game.AI.Astar
             {
                 targetIndex = 0;
                 path = new Vector3[0];
-                PathRequestManager.RequestPath(transform.position, Target.position, OnPathFound);
+                
+                
+                
+                PathRequestManager.RequestPath(transform.position, ChooseClosestTarget().position, OnPathFound);
                 yield return  new WaitForSeconds(.1f);
             }
 
             yield return null;
+        }
+        
+        private Transform ChooseClosestTarget()
+        {
+            Transform minTarget = null;
+            float minDist = Mathf.Infinity;
+
+            Vector3 currentPos = transform.position;
+            foreach (var target in Targets)
+            {
+                float dist = Vector3.Distance(target.position, currentPos);
+                if (dist < minDist)
+                {
+                    minTarget = target;
+                    minDist = dist;
+                }
+            }
+
+            return minTarget;
         }
 
         private void OnPathFound(Vector3[] newPath, bool pathSuccessful)
@@ -36,8 +59,6 @@ namespace Game.AI.Astar
             if (pathSuccessful)
             {
                 path = newPath;
-                StopCoroutine(FollowPath());
-                StartCoroutine(FollowPath());
             }
         }
 
