@@ -1015,13 +1015,11 @@ MonoBehaviour:
   - enemies:
     - {fileID: 1627854669, guid: 8ccc90aff4c0b5f4b9421a016efac65e, type: 3}
   - enemies:
-    - {fileID: 1627854669, guid: 6e90f51c971096d41bb26f49f633ea73, type: 3}
+    - {fileID: 1627854669, guid: e96b3abeb4578ed4397dc2ff897f5901, type: 3}
     - {fileID: 1627854669, guid: 6e90f51c971096d41bb26f49f633ea73, type: 3}
   - enemies:
-    - {fileID: 1627854669, guid: 8ccc90aff4c0b5f4b9421a016efac65e, type: 3}
-    - {fileID: 1627854669, guid: 8ccc90aff4c0b5f4b9421a016efac65e, type: 3}
-    - {fileID: 1627854669, guid: 6e90f51c971096d41bb26f49f633ea73, type: 3}
-    - {fileID: 1627854669, guid: 6e90f51c971096d41bb26f49f633ea73, type: 3}
+    - {fileID: 1627854669, guid: f9cdf45c3e2a0c64ba21a98c4b2cfb36, type: 3}
+    - {fileID: 1627854669, guid: e1970c32e7a094e45ad8f4ce7385bc0a, type: 3}
   xSpawnSpace: 15
   ySpawnSpace: 8
 --- !u!4 &1058966267
@@ -1732,7 +1730,7 @@ MonoBehaviour:
     m_Bits: 24832
   gridWorldSize: {x: 10, y: 10}
   nodeRadius: 0.2
-  showGizmos: 0
+  showGizmos: 1
 --- !u!4 &1989601212
 Transform:
   m_ObjectHideFlags: 0
@@ -2220,6 +2218,14 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 389467654244702557, guid: a960e63c55f490848a7fcb4c36716650, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 389467654244702557, guid: a960e63c55f490848a7fcb4c36716650, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 389467654244702557, guid: a960e63c55f490848a7fcb4c36716650, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
       objectReference: {fileID: 0}
@@ -2295,6 +2301,14 @@ PrefabInstance:
     - target: {fileID: 7002809598049115543, guid: 680554377f558ba4f8e40bc7a0709b97, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002809598049115543, guid: 680554377f558ba4f8e40bc7a0709b97, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002809598049115543, guid: 680554377f558ba4f8e40bc7a0709b97, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7002809598049115543, guid: 680554377f558ba4f8e40bc7a0709b97, type: 3}
       propertyPath: m_LocalPosition.x
