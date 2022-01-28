@@ -28,6 +28,16 @@ public class PlayerAnimations : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
     }
 
+    private void OnEnable()
+    {
+        playerInput.MouseClick += Shoot;
+    }
+
+    private void OnDisable()
+    {
+        playerInput.MouseClick -= Shoot;
+    }
+
     private void Start()
     {
         headSr = head.GetComponent<SpriteRenderer>();
@@ -81,5 +91,10 @@ public class PlayerAnimations : MonoBehaviour
         {
             sr.flipX = playerInput.AxisInput.x < 0;
         }
+    }
+
+    private void Shoot()
+    {
+        headAnimator.SetTrigger("Shoot");
     }
 }
