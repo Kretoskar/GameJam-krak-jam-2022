@@ -16,6 +16,7 @@ namespace Game.Combat
 
         private PlayerInput playerInput;
         private Rigidbody2D rb;
+        private bool deflected;
 
         private Action<Bullet> destroyAction;
 

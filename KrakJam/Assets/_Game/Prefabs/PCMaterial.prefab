@@ -17,8 +17,8 @@ GameObject:
   - component: {fileID: 7094362589051202582}
   - component: {fileID: 1627854668}
   - component: {fileID: 1627854669}
-  m_Layer: 0
-  m_Name: PC
+  m_Layer: 20
+  m_Name: PCMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

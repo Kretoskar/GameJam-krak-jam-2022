@@ -31,9 +31,9 @@ TagManager:
   - MaterialPlayer
   - SoulHitbox
   - MaterialHitbox
-  - 
-  - 
-  - 
+  - EnemySoulBullet
+  - EnemyMaterialBullet
+  - EnemyBothBullet
   - 
   - 
   - 

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 7226396132847348403}
   - component: {fileID: 7226396132847348400}
   - component: {fileID: 7226396132847348401}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: PlayerSoul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504771b7fbf4db3499f3badc32daac38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 348203451726756063, guid: ce53b3c25e847224c823e52d673e178b, type: 3}
+  bullet: {fileID: 348203451726756063, guid: a0c9319f64df2974cb03f5defa487536, type: 3}
   spawnDistance: 1
 --- !u!95 &7226396132847348412
 Animator:
@@ -299,7 +299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1033320412732263131}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: HeadArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7226396132001209637}
   - component: {fileID: 7226396132001209658}
-  m_Layer: 10
+  m_Layer: 24
   m_Name: Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 7226396133165009510}
   - component: {fileID: 7226396133165009511}
   - component: {fileID: 4418182876522850209}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,3 +489,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sr: {fileID: 389467654244702554}
+  addition: 1
