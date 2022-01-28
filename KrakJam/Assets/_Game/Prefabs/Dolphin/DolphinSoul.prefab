@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 1988051174866698193}
   - component: {fileID: 1988051174866698197}
   - component: {fileID: 1988051174866698196}
-  m_Layer: 20
+  m_Layer: 19
   m_Name: DolphinSoul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -967959681, guid: d631ea9808afb3a4a83fff56d8a1fc66, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.3719117, g: 0.39710256, b: 0.5849056, a: 0.39215687}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0594f1faabb35147942c56c61d38099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4253151565153845322, guid: 5bafb97af2b39ee4bad9270b913d4df6, type: 3}
+  bullet: {fileID: 4253151565153845322, guid: 14fe08b19a463334c813b49448824ac6, type: 3}
   bulletSpawnDistance: 1
   jumpAttackXMove: 2
 --- !u!114 &1988051174866698216
