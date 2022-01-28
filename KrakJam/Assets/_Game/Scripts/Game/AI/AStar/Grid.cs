@@ -42,6 +42,11 @@ namespace Game.AI.Astar
             return grid[x, y];
         }
 
+        public bool IsPositionWalkable(Vector3 position)
+        {
+            return NodeFromWorldPoint(position).Walkable;
+        }
+
         public List<Node> GetNeighbours(Node node)
         {
             List<Node> neighbours = new List<Node>();
