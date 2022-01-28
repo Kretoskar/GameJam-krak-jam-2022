@@ -58,7 +58,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2082852522}
   - component: {fileID: 2082852524}
-  - component: {fileID: 2082852523}
+  - component: {fileID: 2082852525}
+  - component: {fileID: 2377105493340104761}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -133,7 +134,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2082852523
+--- !u!95 &2082852525
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082852521}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6be70924de95fcc4aaaa87202e6279be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2377105493340104761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,11 +163,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2082852521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 967c1d17d1162db4d907c78f92a1db41, type: 3}
+  m_Script: {fileID: 11500000, guid: f8567f3a1a30d5241808cee13cfde2d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _offset: -0.8
-  _runOnce: 0
+  sr: {fileID: 7002809598049115536}
 --- !u!1 &7002809598049115631
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,8 +384,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSoul: 0
-  head: {fileID: 0}
+  head: {fileID: 2082852521}
   headRotOffset: 0
+  headRotClamp: 60
+  debugRot: 0
 --- !u!114 &1865690744
 MonoBehaviour:
   m_ObjectHideFlags: 0
