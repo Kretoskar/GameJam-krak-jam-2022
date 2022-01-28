@@ -77,7 +77,7 @@ public class PlayerAnimations : MonoBehaviour
 
         head.transform.parent.rotation = Quaternion.Euler(0f, 0f, rot);
         
-        bool moving = Mathf.Abs(playerInput.AxisInput.x) > 0.1f;
+        bool moving = Mathf.Abs(playerInput.AxisInput.magnitude) > 0.1f;
         headAnimator.SetBool("IsMoving", moving);
         aniamtor.SetBool("IsMoving", moving);
         
