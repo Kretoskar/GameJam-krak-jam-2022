@@ -38,6 +38,18 @@ namespace Game.Combat
             rb.AddForce(diff * Time.fixedDeltaTime * speed, ForceMode2D.Impulse);
         }
 
+        public void EnemyShoot(Action<Bullet> destroyAction, Vector2 direction)
+        {
+            this.destroyAction = destroyAction;
+
+            Vector2 diff = direction;
+
+            float rotZ = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0f, 0f, rotZ - 90);
+            
+            rb.AddForce(diff * Time.fixedDeltaTime * speed, ForceMode2D.Impulse);
+        }
+
         private void OnCollisionEnter2D(Collision2D col)
         {
             Health health = col.gameObject.GetComponent<Health>();

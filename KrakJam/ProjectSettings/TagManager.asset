@@ -44,6 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Flying
+    uniqueID: 3485428783
+    locked: 0
   - name: Cursor
     uniqueID: 2099157221
     locked: 0
