@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 7094362589051202587}
   - component: {fileID: 7094362589051202584}
   - component: {fileID: 7094362589051202582}
+  - component: {fileID: 1627854668}
+  - component: {fileID: 1627854669}
   m_Layer: 0
   m_Name: PC
   m_TagString: Untagged
@@ -86,6 +88,87 @@ MonoBehaviour:
   xJumpSpace: 13
   yJumpSpace: 7
   drawGizmos: 0
+  bullet: {fileID: 4253151565153845322, guid: d57a16c7335ee6e45a288f3e8ad34cd4, type: 3}
+  bulletSpawnDistance: 0.5
+  flySortingLayer: Flying
+  startSortingLayer: Default
+  zoomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.008333325
+      value: 0.00094264746
+      inSlope: 2.0670152
+      outSlope: 2.0670152
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49166667
+      value: 1
+      inSlope: 0.06667787
+      outSlope: 0.06667787
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0083333
+      value: 0.00094264746
+      inSlope: -1.9336594
+      outSlope: -1.9336594
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  posCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.6011536
+      outSlope: 1.6011536
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.26167846
+      value: 0.4189874
+      inSlope: 0.5877641
+      outSlope: 0.5877641
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.24041708
+    - serializedVersion: 3
+      time: 0.8425085
+      value: 0.6196598
+      inSlope: 0.44312304
+      outSlope: 0.44312304
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.24044615
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2.4149888
+      outSlope: 2.4149888
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  zoomScale: 1.3
+  maxJumpDistance: 5
 --- !u!114 &7094362589051202587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 
   asynchronousStatesNames: []
-  idleTime: 5
+  idleTime: 3
   jumpTime: 1.9
 --- !u!212 &7094362589051202584
 SpriteRenderer:
@@ -180,3 +263,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.51068366, y: 0.5872723}
   m_EdgeRadius: 0
+--- !u!114 &1627854668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094362589051202585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967c1d17d1162db4d907c78f92a1db41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _offset: -0.3
+  _runOnce: 0
+--- !u!114 &1627854669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094362589051202585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d649c8964db291b468e76e326537670f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3

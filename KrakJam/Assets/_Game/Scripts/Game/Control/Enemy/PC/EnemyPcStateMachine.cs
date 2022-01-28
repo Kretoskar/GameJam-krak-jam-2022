@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Game.Combat;
 using Game.Control;
 using UnityEngine;
 
@@ -11,7 +12,8 @@ namespace Game.Control.Enemy.PC
     {
         [SerializeField] private float idleTime = 3;
         [SerializeField] private float jumpTime = 2;
-        
+
+        private EnemyHealth health;
         private EnemyPcStateIdle idleState;
         private EnemyPcStateJump jumpState;
 
@@ -19,6 +21,7 @@ namespace Game.Control.Enemy.PC
         {
             idleState = GetComponent<EnemyPcStateIdle>();
             jumpState = GetComponent<EnemyPcStateJump>();
+            health = GetComponent<EnemyHealth>();
         }
 
         private void Start()
@@ -26,6 +29,16 @@ namespace Game.Control.Enemy.PC
             Behaviour();
         }
 
+        private void OnEnable()
+        {
+            health.Death += Die;
+        }
+
+        private void OnDisable()
+        {
+            health.Death -= Die;
+        }
+        
         private void Update()
         {
             currentState?.Execute();
@@ -45,6 +58,11 @@ namespace Game.Control.Enemy.PC
                 ChangeState(jumpState);
                 yield return new WaitForSeconds(jumpTime);
             }
+        }
+
+        private void Die()
+        {
+            Destroy(gameObject);
         }
     }
 }
