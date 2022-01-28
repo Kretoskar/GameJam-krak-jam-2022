@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7651493822032742197}
   - component: {fileID: 1957283383151493308}
   - component: {fileID: 8361314804186825575}
+  - component: {fileID: 3155800151595162744}
   m_Layer: 17
   m_Name: Gfx
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -1995642522, guid: 805157e0139898c409c2d53553bb8b00, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -105,6 +106,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3155800151595162744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615460101451640992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967c1d17d1162db4d907c78f92a1db41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _offset: -0.2
+  _runOnce: 0
 --- !u!1 &3314205383455507769
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,8 +131,8 @@ GameObject:
   - component: {fileID: 6999319828692736467}
   - component: {fileID: 348203451726756063}
   - component: {fileID: 1515915815557957933}
-  - component: {fileID: 5746122728366122171}
   - component: {fileID: 584943812835168148}
+  - component: {fileID: 3439890367913115559}
   m_Layer: 17
   m_Name: BulletBasicMaterial
   m_TagString: Untagged
@@ -174,23 +189,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!58 &5746122728366122171
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3314205383455507769}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.1
+  m_Constraints: 4
 --- !u!114 &584943812835168148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,3 +203,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Form: 1
+--- !u!70 &3439890367913115559
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3314205383455507769}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0068679154, y: 0.00018849969}
+  m_Size: {x: 0.1801511, y: 0.42739624}
+  m_Direction: 0
