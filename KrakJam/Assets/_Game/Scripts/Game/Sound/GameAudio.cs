@@ -13,6 +13,7 @@ public class GameAudio : MonoBehaviour
     [SerializeField] private AudioClip level2Music;
     [SerializeField] private AudioClip level3Music;
     [SerializeField] private AudioClip bossMusic;
+    [SerializeField] private AudioClip lastSpeech;
 
     [SerializeField] private float minBloom = .5f;
     [SerializeField] private float maxBloom = 2;
@@ -84,6 +85,11 @@ public class GameAudio : MonoBehaviour
     public void ChangeToBossMusic()
     {
         StartCoroutine(MusicTransitionCoroutine(bossMusic));
+    }
+
+    public void ChangeToLastSpeech()
+    {
+        StartCoroutine(MusicTransitionCoroutine(lastSpeech));
     }
     
     private IEnumerator MusicTransitionCoroutine(AudioClip audioClip)

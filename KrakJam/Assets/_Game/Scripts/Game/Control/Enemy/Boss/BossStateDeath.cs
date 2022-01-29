@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class BossStateDeath : MonoBehaviour, IState
 {
+    [SerializeField]
+    private PlayMakerFSM fsm;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +22,7 @@ public class BossStateDeath : MonoBehaviour, IState
 
     public void Enter(StateMachine sm)
     {
-        Destroy(gameObject);
+        fsm.SendEvent("Die");
     }
 
     public void Execute()

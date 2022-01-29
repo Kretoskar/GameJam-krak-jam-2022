@@ -1,5 +1,4 @@
-using System;
-using System.Collections;
+using System;using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -15,7 +14,7 @@ namespace Game.Combat
         
         public override void GetHit()
         {
-           // return;
+            return;
             
             currentHealh--;
             
