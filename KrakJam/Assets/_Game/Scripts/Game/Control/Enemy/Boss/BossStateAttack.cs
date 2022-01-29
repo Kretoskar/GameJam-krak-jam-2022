@@ -14,6 +14,8 @@ public class BossStateAttack : MonoBehaviour, IState
     [SerializeField] private Transform leftSpawnPos;
     [SerializeField] private Transform rightSpawnPos;
     [SerializeField] private PlayMakerFSM fsm;
+    [SerializeField] private GameObject hitFx;
+    [SerializeField] private GameObject rhitFx;
 
     private float t;
     private bool shoot;
@@ -38,6 +40,9 @@ public class BossStateAttack : MonoBehaviour, IState
     private void Shoot()
     {
         fsm.SendEvent("shake");
+
+        Instantiate(hitFx, leftSpawnPos.position, Quaternion.identity);
+        Instantiate(rhitFx, rightSpawnPos.position, Quaternion.identity);
         
         //Diagonal
         var topRightBullet = Instantiate(bullet, (Vector2)leftSpawnPos.position + (Vector2.up + Vector2.right) * bulletSpawnDistance, Quaternion.identity);
