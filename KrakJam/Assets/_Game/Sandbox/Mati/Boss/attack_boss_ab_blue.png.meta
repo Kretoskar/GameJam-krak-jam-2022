@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: d49a328e64d7f244484b29c8bbccc50c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 816
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8babc81cf4058fa44af6c235fb64169a
+      internalID: 1862933244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_1
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4280bfa1115630f42b4cec73656b3f1e
+      internalID: 88439873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_2
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce326e94493cd0b418f8641d6ae9f059
+      internalID: 160915475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_3
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760e3f46c0139194fa7db51ff6a3ba2e
+      internalID: 406459259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_4
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8974c1e80980682469f4c37527cb37f0
+      internalID: 1050626164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_5
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548224bd33090bf459a55f09bbfe48d9
+      internalID: 1292503464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_6
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2548f5f45eed34d9e4bc8fc27df1c3
+      internalID: -1375151993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_7
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f29f31cc2e8e9446bbf1a68b0e80d3a
+      internalID: 273766370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_8
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5927cdc70a30ac43b028d494124d489
+      internalID: -1065231355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_9
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c67de078074d94fa2120ad4f0f77ac
+      internalID: 1952535006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0bbdb5fed69f947a0ee4597c29075c
+      internalID: 1293257249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35feaca543351849a0deb02cd090629
+      internalID: -774313533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_12
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5277dc2af8402e47a541ffb7a60eef7
+      internalID: 442983527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_13
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6c775c655d0b5458e8763f00c6da55
+      internalID: -1098526298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_14
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e265c77c0828a4ea7f78c92bab1bef
+      internalID: 51847161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_15
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae34f34e3dc6854a9ca11a5c32c623e
+      internalID: -20176304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_16
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557346efc3da35e488b52315aa312eda
+      internalID: 1850759463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_17
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbe2372a514d9b4c8074d3611c63db2
+      internalID: 572029385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_18
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed274f02ffc28f4081af6a2d945fe97
+      internalID: -161200980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_19
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6c3bf9653f0f44cbefd67a0db42b81
+      internalID: 147018968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab77798495288a43b4fce0ce0cc892d
+      internalID: 2068193371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_21
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92368eaf188c9249b6e7588cd44e3fb
+      internalID: -2081919088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_22
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc72a3875d0642542a3724ed329b88e9
+      internalID: -49722001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_23
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0b8c7a9f169d7499d821e0503f9493
+      internalID: 549897031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_24
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97369c59318fcf4b955be9437ae1a5e
+      internalID: 1688883436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_25
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7205a49062634b4dbf182d66500b270
+      internalID: 521203547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_26
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7328f5cc6241b0458c1514a8f88bb1f
+      internalID: 1064481059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_27
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13abc4b06b83564ba837403c20baed5
+      internalID: 1902413825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_28
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f6e656fb4e0f743b91b76c1347a975
+      internalID: 109279196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_boss_ab_blue_29
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29baf88a27344bd4994da1a98c747475
+      internalID: 1229987685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      attack_boss_ab_blue_26: 1064481059
+      attack_boss_ab_blue_23: 549897031
+      attack_boss_ab_blue_0: 1862933244
+      attack_boss_ab_blue_8: -1065231355
+      attack_boss_ab_blue_5: 1292503464
+      attack_boss_ab_blue_2: 160915475
+      attack_boss_ab_blue_28: 109279196
+      attack_boss_ab_blue_14: 51847161
+      attack_boss_ab_blue_19: 147018968
+      attack_boss_ab_blue_24: 1688883436
+      attack_boss_ab_blue_20: 2068193371
+      attack_boss_ab_blue_27: 1902413825
+      attack_boss_ab_blue_3: 406459259
+      attack_boss_ab_blue_4: 1050626164
+      attack_boss_ab_blue_11: -774313533
+      attack_boss_ab_blue_15: -20176304
+      attack_boss_ab_blue_12: 442983527
+      attack_boss_ab_blue_10: 1293257249
+      attack_boss_ab_blue_16: 1850759463
+      attack_boss_ab_blue_17: 572029385
+      attack_boss_ab_blue_6: -1375151993
+      attack_boss_ab_blue_7: 273766370
+      attack_boss_ab_blue_21: -2081919088
+      attack_boss_ab_blue_25: 521203547
+      attack_boss_ab_blue_1: 88439873
+      attack_boss_ab_blue_9: 1952535006
+      attack_boss_ab_blue_22: -49722001
+      attack_boss_ab_blue_29: 1229987685
+      attack_boss_ab_blue_13: -1098526298
+      attack_boss_ab_blue_18: -161200980
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

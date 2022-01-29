@@ -1,0 +1,2334 @@
+fileFormatVersion: 2
+guid: 0a1b94858819a2e4588dcb9ff73898d6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 816
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle_boss_ab_green_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116dac905b1e50640b6cf39d61a2d502
+      internalID: -1491880434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_1
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b78153aec0d7ee40b7eb70b7e20b33a
+      internalID: -1130962688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_2
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb20e31e2d96e1b4ca0cbd71247dc1b7
+      internalID: 191291936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_3
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dc76eb71454dc48bf53c07d19a36e3
+      internalID: -1622836625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_4
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f55f43b50326f4095607db5c95b60a
+      internalID: -74012750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_5
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6ca4cdbc32e3d4a8a9aa1f4764b981
+      internalID: -869952244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_6
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae8194de6830e248b686398a35075c3
+      internalID: -1111722449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_7
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a62ad44c6430e40947141498b7075f
+      internalID: -1208628310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_8
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252c4848d1c8c0e4889f351476758029
+      internalID: -1021520384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_9
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 7344
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b219dd174155f1343acf51f63254a1ea
+      internalID: -104340337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9117af2c242714fb181205288c4fb3
+      internalID: -491144045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de06e03866371204b9bc44c53b6bfc4a
+      internalID: -642797205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_12
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70e6b38e4e370249b02531c6a161c3b
+      internalID: -830276916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_13
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7de62b5e5aa1d84e85778ea5bb33578
+      internalID: 928043570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_14
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51ad79e3fbd20245a6dd3b69990128e
+      internalID: -1407526937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_15
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25c462287122ed4ea56ca1a1a52c7bf
+      internalID: 569789869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_16
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c8c430e25c2ba45980c50568d4d19b
+      internalID: 1136172035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_17
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead4aeec64e33544ca0b8137b5bb8b86
+      internalID: -963155305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_18
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5220bcb469d4a1c43a00369b34761399
+      internalID: -2001296693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_19
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e91435ebf72915479b89f5fbe1e7b2b
+      internalID: 2142124070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e8aa866b31d6749a0ca799b601d787
+      internalID: 1843457642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_21
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a17990bf369512429bcf8e7548ee23a
+      internalID: -878706745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_22
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893a032174b98604ea1a42ef2a3318d4
+      internalID: -617197541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_23
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d86666281add5429d03e8694be25ce
+      internalID: 584705110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_24
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8083e69c48fa2bc4cb835f117d0e5268
+      internalID: -26806377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_25
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21172f883ec191f4caf71ef9a3f6a4d3
+      internalID: 1591222079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_26
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524dfaf8786e6eb4dbd083a5ba8f9cd9
+      internalID: -503518244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_27
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a10ed195cbadb94fb66c6c570c0b619
+      internalID: 1854097917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_28
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dffc7853e13b74ea654a7e6794d3f4
+      internalID: 1064296733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_29
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6327cf45c0ae4e145857fdc566aeac9d
+      internalID: 1027462565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a6af6c518b6f648946d7744be9b486
+      internalID: -58472061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_31
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641fb7ea606f3ca488a01694ef4b4de2
+      internalID: 136332062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_32
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd217e0a1f3b67f41ac92a63860884c2
+      internalID: 1427349405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_33
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5062a641af163714786af9d162d1a8d3
+      internalID: 1222785214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_34
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649800a6ea1d3204b95d2557eca87488
+      internalID: 1875424689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_35
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eab9c90b7b15c45aac198903ae6cb4
+      internalID: 2070885442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_36
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c0552f53d64a348868cb54ec982eea
+      internalID: -1403488234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_37
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334561980d6d8d44193d75238e7e8b08
+      internalID: 790846058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_38
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19584aad7afac9445b6d6df793424eb9
+      internalID: 173741666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_39
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab81c2661cdcc541a88032564b85a1a
+      internalID: 1668334926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57201bb19feee7f40a43fea65d596036
+      internalID: 1941941117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_41
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702ec4db149d47940be261d719580a69
+      internalID: -1857353365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_42
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219b90cf0de317a468a51e617a5a4417
+      internalID: -1495355069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_43
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6904457ba56398b4392820fdcbed10e1
+      internalID: 1176122375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_44
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c77a88c7e8271e429573423d6babda7
+      internalID: 1364356706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_45
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a69d7eafd2e3547a2a0def029c948f
+      internalID: 555089494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_46
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70797103b251e934892379be68259f3e
+      internalID: -1770676210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_47
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d69441dbab39a4fab2d7b9f561dd8b
+      internalID: 147029427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_48
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356105e9bbe78be46b8409d8e8333471
+      internalID: -218103636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_49
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 4080
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0790b1b9f81bbf8449f21171c75cb28b
+      internalID: -1953857017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb8a2b4918bbab4bbb683f81ae07429
+      internalID: 1375621983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_51
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92c8e06ed548e54ca7d861e19bcdb69
+      internalID: 1713812863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_52
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5e22f57e6ea6f4a9330173af920301
+      internalID: 1860117446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_53
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2aefb6e73b0a44fae1b655749ff786
+      internalID: -543459298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_54
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce0719ddf311aa4792c609a8ca899bb
+      internalID: -998858360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_55
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c8e302d67143246b5c2f661808353f
+      internalID: -1767291965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_56
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f3af6823514174c90d9c5e0ffd1873
+      internalID: -1599257514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_57
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f3e6811ae19141b0253e298b9275a
+      internalID: 1205900762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_58
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5538214a6cc86a145b25b8861cbc6d90
+      internalID: 723246663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_59
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 3264
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4b29c11af4c76468c0a912be9348bd
+      internalID: -888158270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55edf9d9f5dc654781836ab23cf5eee
+      internalID: -1676290477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_61
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65397226613692047b3dbebcf5bb44ca
+      internalID: 179992140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_62
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12fd4e04baafe24fbcb037fdc564c50
+      internalID: -1539188039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_63
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf70b7f1e47d7f4481994e19841cb80
+      internalID: -407454320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_64
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c21a7f3eece91b4ba370c0ab0aa535a
+      internalID: -896310806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_65
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d7f835d39b57040823ad5659e7beca
+      internalID: -1318968247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_66
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eaf3bc14ce77a4a8c6cc37922a946a
+      internalID: 1700058541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_67
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da0f0343150e654c9f5add91fa4438f
+      internalID: 1813758675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_68
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa18eeabd20b0b4a8b880e0d5bcbe0b
+      internalID: -970963352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_69
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 2448
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d63b22de963de43b76d2976a1dc1f7
+      internalID: 135939302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c40233e8d218b418ba3a3e04558597
+      internalID: 533353102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_71
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7f2412cba25a546ab341e6ca900a35
+      internalID: 2109813363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_72
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee77f4c0ebb9855449471ebc059bed3b
+      internalID: -1999289540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_73
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e1d266fa4c22a4e8cf2bd8b17ffd01
+      internalID: -1669829128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_74
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09956a38297600b42b1ef17ca82d85f5
+      internalID: -1651803710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_75
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6007ed41f26febd47be494ed76f34930
+      internalID: -1924857227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_76
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ea5775d6c1d9349b44edeca3ceda19
+      internalID: 1052448494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_77
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43f88e207c16f64d99b98cd87398ff3
+      internalID: -1808031537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_78
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431bec5fbfd5fb340b9f53378c512a1d
+      internalID: 916367311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_79
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 1632
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3172a73cee0d85f4ea5bdcada0a2ca30
+      internalID: -1500109211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7a0bd03e8c02c48bad250c768f025d
+      internalID: 312606196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_81
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd79464cd05743e46921ee568df7016c
+      internalID: -964402616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_82
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79f7989766f6b843b90d72a9c8130dd
+      internalID: -1624880506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_83
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23245afccaa505942b9dbc5c473318d2
+      internalID: 378168280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_84
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dcc9402f9a18842af57fbcf45f24fa
+      internalID: -1123241816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_85
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e180aba0bae84ca4fb5aa69e64734d50
+      internalID: 326932920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_86
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d794e9aca02314dab9cfea5187395c
+      internalID: 10752464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_87
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a001b009ba53145892810787afcd6f
+      internalID: -1525338463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_88
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f3e3e712c718140904f1152cc30b7b
+      internalID: -188760780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_89
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 816
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3d198e7b4ce944ca4dd83884db5f1d
+      internalID: -2111023809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585f00cd05e90ba4cafcd70f8c2355d8
+      internalID: -565481611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_91
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbbafb1c2ce0754a9520540dc3872a2
+      internalID: -966938814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_92
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d59ae60f08dc8b43931b2f0c66e9621
+      internalID: 985304753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_93
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce474a1ee2bd3447b427f81d61a6291
+      internalID: -1827999226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_94
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956bc986697513e4a94e7b1d89e391bf
+      internalID: 1640836497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_95
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521ee3bd166f767408615c7034d82b07
+      internalID: 552933827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_96
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790f820f6889abe45b15024f992000d3
+      internalID: 931238741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_97
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1610a9e6c5568ee4f9e088582df618d2
+      internalID: -352359128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_98
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e94c6d0bfff3b479809dceee5b122e
+      internalID: -411861790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_boss_ab_green_99
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 0
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fa239022e58504ea9d80ff553a17bb
+      internalID: 194594226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      idle_boss_ab_green_33: 1222785214
+      idle_boss_ab_green_60: -1676290477
+      idle_boss_ab_green_67: 1813758675
+      idle_boss_ab_green_90: -565481611
+      idle_boss_ab_green_10: -491144045
+      idle_boss_ab_green_38: 173741666
+      idle_boss_ab_green_87: -1525338463
+      idle_boss_ab_green_56: -1599257514
+      idle_boss_ab_green_40: 1941941117
+      idle_boss_ab_green_65: -1318968247
+      idle_boss_ab_green_16: 1136172035
+      idle_boss_ab_green_48: -218103636
+      idle_boss_ab_green_64: -896310806
+      idle_boss_ab_green_94: 1640836497
+      idle_boss_ab_green_18: -2001296693
+      idle_boss_ab_green_3: -1622836625
+      idle_boss_ab_green_2: 191291936
+      idle_boss_ab_green_23: 584705110
+      idle_boss_ab_green_72: -1999289540
+      idle_boss_ab_green_74: -1651803710
+      idle_boss_ab_green_42: -1495355069
+      idle_boss_ab_green_4: -74012750
+      idle_boss_ab_green_5: -869952244
+      idle_boss_ab_green_77: -1808031537
+      idle_boss_ab_green_13: 928043570
+      idle_boss_ab_green_25: 1591222079
+      idle_boss_ab_green_59: -888158270
+      idle_boss_ab_green_12: -830276916
+      idle_boss_ab_green_49: -1953857017
+      idle_boss_ab_green_95: 552933827
+      idle_boss_ab_green_1: -1130962688
+      idle_boss_ab_green_43: 1176122375
+      idle_boss_ab_green_99: 194594226
+      idle_boss_ab_green_28: 1064296733
+      idle_boss_ab_green_37: 790846058
+      idle_boss_ab_green_19: 2142124070
+      idle_boss_ab_green_35: 2070885442
+      idle_boss_ab_green_31: 136332062
+      idle_boss_ab_green_93: -1827999226
+      idle_boss_ab_green_14: -1407526937
+      idle_boss_ab_green_83: 378168280
+      idle_boss_ab_green_80: 312606196
+      idle_boss_ab_green_84: -1123241816
+      idle_boss_ab_green_92: 985304753
+      idle_boss_ab_green_24: -26806377
+      idle_boss_ab_green_54: -998858360
+      idle_boss_ab_green_26: -503518244
+      idle_boss_ab_green_71: 2109813363
+      idle_boss_ab_green_58: 723246663
+      idle_boss_ab_green_39: 1668334926
+      idle_boss_ab_green_36: -1403488234
+      idle_boss_ab_green_21: -878706745
+      idle_boss_ab_green_0: -1491880434
+      idle_boss_ab_green_91: -966938814
+      idle_boss_ab_green_97: -352359128
+      idle_boss_ab_green_27: 1854097917
+      idle_boss_ab_green_32: 1427349405
+      idle_boss_ab_green_30: -58472061
+      idle_boss_ab_green_73: -1669829128
+      idle_boss_ab_green_9: -104340337
+      idle_boss_ab_green_96: 931238741
+      idle_boss_ab_green_89: -2111023809
+      idle_boss_ab_green_86: 10752464
+      idle_boss_ab_green_15: 569789869
+      idle_boss_ab_green_62: -1539188039
+      idle_boss_ab_green_88: -188760780
+      idle_boss_ab_green_51: 1713812863
+      idle_boss_ab_green_78: 916367311
+      idle_boss_ab_green_69: 135939302
+      idle_boss_ab_green_6: -1111722449
+      idle_boss_ab_green_17: -963155305
+      idle_boss_ab_green_11: -642797205
+      idle_boss_ab_green_7: -1208628310
+      idle_boss_ab_green_68: -970963352
+      idle_boss_ab_green_50: 1375621983
+      idle_boss_ab_green_22: -617197541
+      idle_boss_ab_green_41: -1857353365
+      idle_boss_ab_green_46: -1770676210
+      idle_boss_ab_green_8: -1021520384
+      idle_boss_ab_green_98: -411861790
+      idle_boss_ab_green_85: 326932920
+      idle_boss_ab_green_47: 147029427
+      idle_boss_ab_green_57: 1205900762
+      idle_boss_ab_green_34: 1875424689
+      idle_boss_ab_green_75: -1924857227
+      idle_boss_ab_green_44: 1364356706
+      idle_boss_ab_green_20: 1843457642
+      idle_boss_ab_green_79: -1500109211
+      idle_boss_ab_green_61: 179992140
+      idle_boss_ab_green_52: 1860117446
+      idle_boss_ab_green_53: -543459298
+      idle_boss_ab_green_29: 1027462565
+      idle_boss_ab_green_81: -964402616
+      idle_boss_ab_green_55: -1767291965
+      idle_boss_ab_green_63: -407454320
+      idle_boss_ab_green_45: 555089494
+      idle_boss_ab_green_82: -1624880506
+      idle_boss_ab_green_66: 1700058541
+      idle_boss_ab_green_76: 1052448494
+      idle_boss_ab_green_70: 533353102
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
