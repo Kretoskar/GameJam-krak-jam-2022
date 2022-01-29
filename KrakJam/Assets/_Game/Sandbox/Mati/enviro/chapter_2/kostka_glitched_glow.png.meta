@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2516855403032ae4db2e6ee71a09d55d
+guid: 9b1f6ea3e548713418613516ce9b14c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kostka_glitched_0
+      name: kostka_glitched_glow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,20 +124,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5855a658911692e49bc2fab26b65b3a3
-      internalID: -48573445
+      spriteID: 1cf61cac8bc48ef4580b1eece4c21028
+      internalID: 1954298026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_1
+      name: kostka_glitched_glow_1
       rect:
         serializedVersion: 2
         x: 128
@@ -145,20 +145,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27447da838865574e9574e6a35470419
-      internalID: -1795058308
+      spriteID: 238f880245a03884fa4b6ed183f88c98
+      internalID: -1821940883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_2
+      name: kostka_glitched_glow_2
       rect:
         serializedVersion: 2
         x: 256
@@ -166,20 +166,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6571c8d6ac70ab645886704d7ec748ca
-      internalID: 525272426
+      spriteID: 607b84cc2a80b774b90fd94d309282bf
+      internalID: 261250488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_3
+      name: kostka_glitched_glow_3
       rect:
         serializedVersion: 2
         x: 384
@@ -187,20 +187,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e5b3074f34d18498aecde86f730abc
-      internalID: 167819269
+      spriteID: 601582263448f77498c477634701609b
+      internalID: -1734245804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_4
+      name: kostka_glitched_glow_4
       rect:
         serializedVersion: 2
         x: 512
@@ -208,20 +208,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aaa5043dba10c0469fa93bde5b7b7f7
-      internalID: -1620336424
+      spriteID: 5ff33d3bf65060d4698888886eb90e84
+      internalID: 950042806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_5
+      name: kostka_glitched_glow_5
       rect:
         serializedVersion: 2
         x: 640
@@ -229,20 +229,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f1b3990e812e334795941e1a19fe924
-      internalID: 249993067
+      spriteID: 95567c379fd764e4494df16f85c5c0a4
+      internalID: 573416480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_6
+      name: kostka_glitched_glow_6
       rect:
         serializedVersion: 2
         x: 0
@@ -250,20 +250,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b51e97cc0c2e2aa4b94e9323d54edf4f
-      internalID: 417170677
+      spriteID: f22c6822dd5d98e4b84891c57c47da60
+      internalID: 690936718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_7
+      name: kostka_glitched_glow_7
       rect:
         serializedVersion: 2
         x: 128
@@ -271,20 +271,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44e9b737bb1bcb54b8f5ca3f793d1f94
-      internalID: -1129768577
+      spriteID: dd50e6549a1dbe14399ad1b4d879a9b6
+      internalID: 1476050282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_8
+      name: kostka_glitched_glow_8
       rect:
         serializedVersion: 2
         x: 256
@@ -292,20 +292,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3259a3f9b3d4044dab0e6f53f894f5e
-      internalID: 845940949
+      spriteID: c0ad63b72e2050a4f873f7893028623a
+      internalID: -548489898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_9
+      name: kostka_glitched_glow_9
       rect:
         serializedVersion: 2
         x: 384
@@ -313,20 +313,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2015aee5edbafef49b8563b2e3d93af7
-      internalID: -2099169193
+      spriteID: 9a81cf3c3073b404cb5a718f39fd728b
+      internalID: 1301207721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_10
+      name: kostka_glitched_glow_10
       rect:
         serializedVersion: 2
         x: 512
@@ -334,20 +334,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 385f358486a42f641bfbb77ea509f5c5
-      internalID: -910886704
+      spriteID: 4490a16d424deb34296898156e7162d2
+      internalID: -625707396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_11
+      name: kostka_glitched_glow_11
       rect:
         serializedVersion: 2
         x: 640
@@ -355,20 +355,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a858a5a2b668c9746ac461c6259fffa2
-      internalID: 1685336069
+      spriteID: f003ea9ed1efb7c43903cb12414f1208
+      internalID: -1125833275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_12
+      name: kostka_glitched_glow_12
       rect:
         serializedVersion: 2
         x: 0
@@ -376,20 +376,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f61b2b89bb7591e49a778fc04d78bf65
-      internalID: 2076217225
+      spriteID: e0b4c04d3499b8a40b728bd0af69520d
+      internalID: -391336649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_13
+      name: kostka_glitched_glow_13
       rect:
         serializedVersion: 2
         x: 128
@@ -397,20 +397,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdbb1bc87a9f36d4090b9cfa9fa1f95e
-      internalID: 145275473
+      spriteID: da779f779e682854283ceda10dbcc7d1
+      internalID: 2127713002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_14
+      name: kostka_glitched_glow_14
       rect:
         serializedVersion: 2
         x: 256
@@ -418,20 +418,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54be3b516d20ed04d8155d432ea3a08e
-      internalID: -1320791476
+      spriteID: 6d5f5884683e89d4da8c73a4c4fc1f11
+      internalID: -936800739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_15
+      name: kostka_glitched_glow_15
       rect:
         serializedVersion: 2
         x: 384
@@ -439,20 +439,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4b9f0026034fdf45b341b82515d446f
-      internalID: -336585845
+      spriteID: 2af41e745f9abea48a86939350e2ff84
+      internalID: -755772630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_16
+      name: kostka_glitched_glow_16
       rect:
         serializedVersion: 2
         x: 512
@@ -460,20 +460,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad0bb0e533c60c498bc037bb601131c
-      internalID: -1253387518
+      spriteID: 621ba42a663012144b110850b1bd585e
+      internalID: -976547145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kostka_glitched_17
+      name: kostka_glitched_glow_17
       rect:
         serializedVersion: 2
         x: 640
@@ -481,14 +481,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32a0ae3b5f414a940b51e191da40f7b3
-      internalID: 1685300703
+      spriteID: f4fb2eb90a4c23145bed40a8c6c83b59
+      internalID: -303741914
       vertices: []
       indices: 
       edges: []
@@ -502,30 +502,26 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 9b1f6ea3e548713418613516ce9b14c1, type: 3}
-      name: _Emission
-    - texture: {fileID: 2800000, guid: 703abf4213e92e548aa873422783c385, type: 3}
-      name: _Emission1
+    secondaryTextures: []
     nameFileIdTable:
-      kostka_glitched_16: -1253387518
-      kostka_glitched_7: -1129768577
-      kostka_glitched_17: 1685300703
-      kostka_glitched_5: 249993067
-      kostka_glitched_8: 845940949
-      kostka_glitched_4: -1620336424
-      kostka_glitched_15: -336585845
-      kostka_glitched_11: 1685336069
-      kostka_glitched_9: -2099169193
-      kostka_glitched_13: 145275473
-      kostka_glitched_1: -1795058308
-      kostka_glitched_0: -48573445
-      kostka_glitched_2: 525272426
-      kostka_glitched_12: 2076217225
-      kostka_glitched_6: 417170677
-      kostka_glitched_3: 167819269
-      kostka_glitched_14: -1320791476
-      kostka_glitched_10: -910886704
+      kostka_glitched_glow_5: 573416480
+      kostka_glitched_glow_6: 690936718
+      kostka_glitched_glow_10: -625707396
+      kostka_glitched_glow_17: -303741914
+      kostka_glitched_glow_11: -1125833275
+      kostka_glitched_glow_15: -755772630
+      kostka_glitched_glow_3: -1734245804
+      kostka_glitched_glow_8: -548489898
+      kostka_glitched_glow_1: -1821940883
+      kostka_glitched_glow_14: -936800739
+      kostka_glitched_glow_4: 950042806
+      kostka_glitched_glow_2: 261250488
+      kostka_glitched_glow_9: 1301207721
+      kostka_glitched_glow_12: -391336649
+      kostka_glitched_glow_13: 2127713002
+      kostka_glitched_glow_16: -976547145
+      kostka_glitched_glow_0: 1954298026
+      kostka_glitched_glow_7: 1476050282
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
