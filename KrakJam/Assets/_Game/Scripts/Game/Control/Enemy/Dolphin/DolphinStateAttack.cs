@@ -11,6 +11,7 @@ namespace Game.Control.Enemy.Dolphin
         [SerializeField] private Bullet bullet;
         [SerializeField] private float bulletSpawnDistance = 1;
         [SerializeField] private float jumpAttackXMove = 2;
+        [SerializeField] private float maxPosX = 9;
         
         private Collider2D coll;
         private Animator animator;
@@ -33,8 +34,12 @@ namespace Game.Control.Enemy.Dolphin
 
         public void Exit()
         {
-            transform.position = new Vector3(transform.position.x + jumpAttackXMove, transform.position.y, transform.position.z);
-            
+            if (transform.position.x < maxPosX)
+            {
+                transform.position = new Vector3(transform.position.x + jumpAttackXMove, transform.position.y,
+                    transform.position.z);
+            }
+
             Shoot();
         }
 
