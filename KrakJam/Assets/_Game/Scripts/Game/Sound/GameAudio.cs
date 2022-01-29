@@ -1,17 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class GameAudio : MonoBehaviour
 {
+    [SerializeField] private Volume volume;
     [SerializeField] private float fadeTime = 2;
     [SerializeField] private AudioClip menuMusic;
     [SerializeField] private AudioClip level1Music;
+
+    [SerializeField] private float minBloom = .5f;
+    [SerializeField] private float maxBloom = 2;
 
     public static GameAudio Instance;
 
     private AudioSource currentAudioSource;
     private AudioSource newAudioSource;
+
+    private Bloom bloom;
+    
     
     private void Awake()
     {
@@ -24,6 +33,8 @@ public class GameAudio : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this);
         }
+
+        volume.profile.TryGet(out bloom);
     }
 
     private void Start()
@@ -33,6 +44,16 @@ public class GameAudio : MonoBehaviour
         currentAudioSource.transform.parent = transform;
         
         ChangeToMainMenu();
+    }
+
+    private void Update()
+    {
+        if(currentAudioSource == null) return;
+        
+        float[] spectrum = new float[64];
+        currentAudioSource.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);
+
+        bloom.intensity.value = Mathf.Lerp(minBloom, maxBloom, spectrum[0]);
     }
 
     public void ChangeToMainMenu()
