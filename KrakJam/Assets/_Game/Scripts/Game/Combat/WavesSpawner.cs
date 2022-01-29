@@ -10,6 +10,7 @@ namespace Game.Combat
         [SerializeField] private List<Wave> waves;
         [SerializeField] [Range(0,100)] private float xSpawnSpace = 10;
         [SerializeField] [Range(0,100)] private float ySpawnSpace = 10;
+        [SerializeField] private GameObject winObject;
 
         private int enemiesLeft;
         private int currentWave = 0;
@@ -46,7 +47,7 @@ namespace Game.Combat
                 }
                 else
                 {
-                    print("gg");
+                    winObject.SetActive(true);
                 }
             }
         }
