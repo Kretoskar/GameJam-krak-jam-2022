@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 641720ea2106f774395cd63159ebf58b
+guid: d2e118170ca9a3244904372b6222825d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,10 +66,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sokrates_0
+      name: sokrates_glow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,20 +124,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f595960e054fa4943a2f627b7578ccb8
-      internalID: -117811357
+      spriteID: 61f07c7cf7adf374e89f660212d64bcc
+      internalID: -274547418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_1
+      name: sokrates_glow_1
       rect:
         serializedVersion: 2
         x: 816
@@ -145,20 +145,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 237803b5143dae84b8e6cfa028f4e064
-      internalID: -1747264522
+      spriteID: f72d813f3d3ed8b4e9554468028373f4
+      internalID: 922229510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_2
+      name: sokrates_glow_2
       rect:
         serializedVersion: 2
         x: 1632
@@ -166,20 +166,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fa229b69e711854f9302f4c12b6552d
-      internalID: -1282515195
+      spriteID: cc9d790e5c23d0d40b33f242771069ea
+      internalID: -1370257530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_3
+      name: sokrates_glow_3
       rect:
         serializedVersion: 2
         x: 2448
@@ -187,20 +187,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2992547b47c1cfc4bbc73da6df3aca4b
-      internalID: -172070812
+      spriteID: 41ea7f381c80c2441b12eae52d0e9cc2
+      internalID: -1946576478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_4
+      name: sokrates_glow_4
       rect:
         serializedVersion: 2
         x: 3264
@@ -208,20 +208,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b7fbe5a03c42f2449bf7b3c6322589c
-      internalID: 2093097911
+      spriteID: 51f440e3143d92749906509bf6d94065
+      internalID: 2105207450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_5
+      name: sokrates_glow_5
       rect:
         serializedVersion: 2
         x: 0
@@ -229,20 +229,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d5232d3bd9c1af41957940ba6f55dbd
-      internalID: -116368682
+      spriteID: 8288959a4032d634eb82da49f38ef514
+      internalID: -213279867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_6
+      name: sokrates_glow_6
       rect:
         serializedVersion: 2
         x: 816
@@ -250,20 +250,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2258a5c4fe38d4687a3c44cf4e310d
-      internalID: 1479144440
+      spriteID: f33bdced3d3acc24a8f0d8edd27c94dd
+      internalID: 1421866831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_7
+      name: sokrates_glow_7
       rect:
         serializedVersion: 2
         x: 1632
@@ -271,20 +271,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00d557f48bac703429ddcd6cef8e54cb
-      internalID: 1616520892
+      spriteID: b180dd767bb39e846bf59cebe33128bc
+      internalID: -178788648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_8
+      name: sokrates_glow_8
       rect:
         serializedVersion: 2
         x: 2448
@@ -292,20 +292,20 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c8faa5225d04a468d7d1730656595d
-      internalID: 339738227
+      spriteID: 92fee2338fb3c844e98731433eefe956
+      internalID: 1090172616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sokrates_9
+      name: sokrates_glow_9
       rect:
         serializedVersion: 2
         x: 3264
@@ -313,14 +313,14 @@ TextureImporter:
         width: 816
         height: 816
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74da88addb69ab54a81b6ca52de7136d
-      internalID: 63081030
+      spriteID: fa70f387ce8344d4bb01958e2b77244f
+      internalID: 1322619562
       vertices: []
       indices: 
       edges: []
@@ -334,22 +334,18 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: d2e118170ca9a3244904372b6222825d, type: 3}
-      name: _Emission
-    - texture: {fileID: 2800000, guid: 53959a2e1cb628d48b99e3832775815c, type: 3}
-      name: _Emission1
+    secondaryTextures: []
     nameFileIdTable:
-      sokrates_0: -117811357
-      sokrates_5: -116368682
-      sokrates_1: -1747264522
-      sokrates_3: -172070812
-      sokrates_6: 1479144440
-      sokrates_7: 1616520892
-      sokrates_2: -1282515195
-      sokrates_4: 2093097911
-      sokrates_8: 339738227
-      sokrates_9: 63081030
+      sokrates_glow_2: -1370257530
+      sokrates_glow_9: 1322619562
+      sokrates_glow_1: 922229510
+      sokrates_glow_3: -1946576478
+      sokrates_glow_4: 2105207450
+      sokrates_glow_7: -178788648
+      sokrates_glow_5: -213279867
+      sokrates_glow_0: -274547418
+      sokrates_glow_8: 1090172616
+      sokrates_glow_6: 1421866831
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
