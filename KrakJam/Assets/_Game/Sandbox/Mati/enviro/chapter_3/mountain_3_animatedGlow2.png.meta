@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4a0fb6052ba9a0241888564fe8b50300
+guid: ac9eac73d382b614b87245160e4a59dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 1024
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mountain_3_animated_0
+      name: mountain_3_animatedGlow2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,20 +124,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d78476cd14cf22498aa1ddbf4778505
-      internalID: -1593678393
+      spriteID: 6efd6f68478b7d549affd60168a9252a
+      internalID: -1017734791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_1
+      name: mountain_3_animatedGlow2_1
       rect:
         serializedVersion: 2
         x: 128
@@ -145,20 +145,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2309c59ddb7ca144ca99ed0f3a787ef4
-      internalID: -404403304
+      spriteID: 9b0a46fa3821829429966fc2c0420182
+      internalID: -1998741888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_2
+      name: mountain_3_animatedGlow2_2
       rect:
         serializedVersion: 2
         x: 256
@@ -166,20 +166,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cf0d172a63275e4286f3b3114b51aa9
-      internalID: -116015118
+      spriteID: 5870666637367eb479d3c18a00d6b9b3
+      internalID: 1023433721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_3
+      name: mountain_3_animatedGlow2_3
       rect:
         serializedVersion: 2
         x: 384
@@ -187,20 +187,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39ad91283e555454db0ad47d692736bb
-      internalID: -226901133
+      spriteID: 5c1aedd80e6415c4f9a3eee03cf4b415
+      internalID: 1207637129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_4
+      name: mountain_3_animatedGlow2_4
       rect:
         serializedVersion: 2
         x: 512
@@ -208,20 +208,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbae4154b70ef0f418f9d7e078ab94ad
-      internalID: -1417309002
+      spriteID: 21ba5cf6de0748b438455f52eeb33a1b
+      internalID: -669766762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_5
+      name: mountain_3_animatedGlow2_5
       rect:
         serializedVersion: 2
         x: 640
@@ -229,20 +229,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e7a1843071ab9a4d866c32ce644ca47
-      internalID: 19453271
+      spriteID: 5f1a82468bccb4d409d0818ba9a0ed96
+      internalID: -148279941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_6
+      name: mountain_3_animatedGlow2_6
       rect:
         serializedVersion: 2
         x: 768
@@ -250,20 +250,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 708ca9d4f6b55c440982aa35fdb0ea44
-      internalID: 347144443
+      spriteID: 11e41ecb6e9a2a94f832fe81e0bd43ea
+      internalID: 340645310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_7
+      name: mountain_3_animatedGlow2_7
       rect:
         serializedVersion: 2
         x: 896
@@ -271,20 +271,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b0c9f565f4b7fc42a24fe5c9c9d42d6
-      internalID: 1492896448
+      spriteID: ff1c78c87afc58349b33db2c5bbe8856
+      internalID: 1742301804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_8
+      name: mountain_3_animatedGlow2_8
       rect:
         serializedVersion: 2
         x: 0
@@ -292,20 +292,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76f16e2fe9ed8ce4fab7b867687c07c3
-      internalID: -498699536
+      spriteID: 835508f99a332c34eaa0f2769c3a3eaf
+      internalID: 1843030846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_9
+      name: mountain_3_animatedGlow2_9
       rect:
         serializedVersion: 2
         x: 128
@@ -313,20 +313,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e5d244675bbcae4fbd1d7c5283ac03c
-      internalID: -2146773126
+      spriteID: f7db0abdf6ff24f4d9a766ba5793663c
+      internalID: -1306200760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_10
+      name: mountain_3_animatedGlow2_10
       rect:
         serializedVersion: 2
         x: 256
@@ -334,20 +334,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf9d25a284c4ed469b21de08eae2485
-      internalID: -425376067
+      spriteID: 98167ad9d35793a4291af46e9fc33ec7
+      internalID: 334782219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_11
+      name: mountain_3_animatedGlow2_11
       rect:
         serializedVersion: 2
         x: 384
@@ -355,20 +355,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d8199e1aef62c140aa3a9ed391ede07
-      internalID: -1916828484
+      spriteID: 133ad459a5902d34bb94eb494dcc51c5
+      internalID: 35727252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_12
+      name: mountain_3_animatedGlow2_12
       rect:
         serializedVersion: 2
         x: 512
@@ -376,20 +376,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cbe245e951c8c44baab7ef6a79d50da
-      internalID: 1864178201
+      spriteID: 84250d6e23ca8c842acb10ec51f62338
+      internalID: 1569856421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_13
+      name: mountain_3_animatedGlow2_13
       rect:
         serializedVersion: 2
         x: 640
@@ -397,20 +397,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 756cc6f6d51b9e54b82f487bea6bdadb
-      internalID: -1172554977
+      spriteID: 83f90254c1dd6ec4dbd89c87f064a71b
+      internalID: 180384058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_14
+      name: mountain_3_animatedGlow2_14
       rect:
         serializedVersion: 2
         x: 768
@@ -418,20 +418,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b20e5363460a8cd4d9cfed51cffd805f
-      internalID: -142878506
+      spriteID: daf4019428d765e4ca46c88382946b8c
+      internalID: 1862447279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_15
+      name: mountain_3_animatedGlow2_15
       rect:
         serializedVersion: 2
         x: 896
@@ -439,20 +439,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981ff185ee54bbb4899e1f9a0ee87780
-      internalID: -1438850181
+      spriteID: 8d0ce4b1dbbc36446b72b7c5dcf11c9b
+      internalID: 950727942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_16
+      name: mountain_3_animatedGlow2_16
       rect:
         serializedVersion: 2
         x: 0
@@ -460,20 +460,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a79255a962debc64baff7a5e5f5ed5c3
-      internalID: 1054588310
+      spriteID: a596b1efda6353444813ebff26bbc00b
+      internalID: -1258409943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_17
+      name: mountain_3_animatedGlow2_17
       rect:
         serializedVersion: 2
         x: 128
@@ -481,20 +481,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6456517a0a0aa41825d88c7aa10ac4
-      internalID: 1290247638
+      spriteID: b2a6389b1aac7d6429ca6213b76dc2b7
+      internalID: -765999953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_18
+      name: mountain_3_animatedGlow2_18
       rect:
         serializedVersion: 2
         x: 256
@@ -502,20 +502,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b847fafb07c97db41a9f698396400859
-      internalID: 575978691
+      spriteID: fc086a6cc3fc34342b6a2d5d3cbf3f6f
+      internalID: -975993522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_19
+      name: mountain_3_animatedGlow2_19
       rect:
         serializedVersion: 2
         x: 384
@@ -523,20 +523,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f35f31c5bc7939a4bba6be50db852e45
-      internalID: -1388199558
+      spriteID: 18cdd73c93a7c2f4cbe7ac201a97489b
+      internalID: 1963508889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_20
+      name: mountain_3_animatedGlow2_20
       rect:
         serializedVersion: 2
         x: 512
@@ -544,20 +544,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 774f84d9e062cef458997635ffddce96
-      internalID: -23992053
+      spriteID: 7cbc64a0d1057014a951bf287b8bab9e
+      internalID: -1770274317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_21
+      name: mountain_3_animatedGlow2_21
       rect:
         serializedVersion: 2
         x: 640
@@ -565,20 +565,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c195d03cec176c141913c21245f727a6
-      internalID: 960975227
+      spriteID: b032fc0d92cd4a94885bd4f953c848f9
+      internalID: -1133432549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_22
+      name: mountain_3_animatedGlow2_22
       rect:
         serializedVersion: 2
         x: 768
@@ -586,20 +586,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 456b75cef32bf4740b9d97955212e887
-      internalID: 1316066662
+      spriteID: f7694c4e9ef9b674d9c452793c9b325e
+      internalID: 1466274752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_23
+      name: mountain_3_animatedGlow2_23
       rect:
         serializedVersion: 2
         x: 896
@@ -607,20 +607,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc5ca579f06092940b0e14d20279a09c
-      internalID: -1980340964
+      spriteID: f242ea1b9f708f84e8c8b8df69f0ce61
+      internalID: -353113158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_24
+      name: mountain_3_animatedGlow2_24
       rect:
         serializedVersion: 2
         x: 0
@@ -628,20 +628,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46dd29d30a9f27a44bb3bdfc1291450d
-      internalID: 1960109937
+      spriteID: 7d9da6522d86aca43b4dc0ecc2451883
+      internalID: -1356157582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_25
+      name: mountain_3_animatedGlow2_25
       rect:
         serializedVersion: 2
         x: 128
@@ -649,20 +649,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 824bdd8deeb083945b1a4705b082c172
-      internalID: -213923372
+      spriteID: 7e8da201ba1a2fc409df6eacdf3f4d9e
+      internalID: 908492605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_26
+      name: mountain_3_animatedGlow2_26
       rect:
         serializedVersion: 2
         x: 256
@@ -670,20 +670,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b66cd35a20eb454d8083b743f58680d
-      internalID: -1664086439
+      spriteID: 830bc941a88870e47a2f12becd13bf7e
+      internalID: 1784710261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_27
+      name: mountain_3_animatedGlow2_27
       rect:
         serializedVersion: 2
         x: 384
@@ -691,20 +691,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ab763c3db786d8458672e20e45af1e8
-      internalID: -1398740091
+      spriteID: 22db85da8c1f9f94a877c018dc354e47
+      internalID: -134422131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_28
+      name: mountain_3_animatedGlow2_28
       rect:
         serializedVersion: 2
         x: 512
@@ -712,20 +712,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: befd4ed6212c7ba4bb2b4481828a08e7
-      internalID: -1316571182
+      spriteID: c6bcd107e63d35b42a0d9e46f96f32e9
+      internalID: 1339579703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_29
+      name: mountain_3_animatedGlow2_29
       rect:
         serializedVersion: 2
         x: 640
@@ -733,20 +733,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b24aaac792fb4540a018c089d0d58dc
-      internalID: 857838598
+      spriteID: d95b95ef50be3934faae8be4ac701ec0
+      internalID: -1391299891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_30
+      name: mountain_3_animatedGlow2_30
       rect:
         serializedVersion: 2
         x: 768
@@ -754,20 +754,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50fd41a1633a72e4684cb940ee6dcf40
-      internalID: -1698894777
+      spriteID: ed77cf4a6e1e88a4981a784c62751bc1
+      internalID: 621398579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_31
+      name: mountain_3_animatedGlow2_31
       rect:
         serializedVersion: 2
         x: 896
@@ -775,20 +775,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d9732877329541469f374b1e12f8263
-      internalID: -902613178
+      spriteID: dc2eb43ecbf05e749b4d1b6d60ddc005
+      internalID: 1088174414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_32
+      name: mountain_3_animatedGlow2_32
       rect:
         serializedVersion: 2
         x: 0
@@ -796,20 +796,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 293a1e2f5fffc2249b2ee6ff8a839697
-      internalID: -895137910
+      spriteID: a672106234264074a9e7c7f8d6b08921
+      internalID: -1749160282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_33
+      name: mountain_3_animatedGlow2_33
       rect:
         serializedVersion: 2
         x: 128
@@ -817,20 +817,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddafda753438587459bb5da986d81552
-      internalID: 906943507
+      spriteID: 69345ce02ff2fac4cb41e9308146e810
+      internalID: 1183630552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_34
+      name: mountain_3_animatedGlow2_34
       rect:
         serializedVersion: 2
         x: 256
@@ -838,20 +838,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f4ddad18a01f584bafd32132a961069
-      internalID: -505250188
+      spriteID: a3147451dab238e40917cf180f5fdb7d
+      internalID: -1192762729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_35
+      name: mountain_3_animatedGlow2_35
       rect:
         serializedVersion: 2
         x: 384
@@ -859,20 +859,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eab022155185073479a2eb524a75dcfa
-      internalID: 1471220628
+      spriteID: 16979c679a9fdf347966268a7aed6c0e
+      internalID: -1519230432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_36
+      name: mountain_3_animatedGlow2_36
       rect:
         serializedVersion: 2
         x: 512
@@ -880,20 +880,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 148f7692b57009f49a015066c65af9f2
-      internalID: -371587801
+      spriteID: e1ec2329d5f752c4eb3493c8b0d1fd64
+      internalID: -1338462938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_37
+      name: mountain_3_animatedGlow2_37
       rect:
         serializedVersion: 2
         x: 640
@@ -901,20 +901,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 593b548f0eac74e41a8970b33d1350da
-      internalID: -773748289
+      spriteID: 134052126145b4a4aac0f924703f6dba
+      internalID: -1579077754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_38
+      name: mountain_3_animatedGlow2_38
       rect:
         serializedVersion: 2
         x: 768
@@ -922,20 +922,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b10722dafb6c9b4a8879d7c453acd83
-      internalID: -903279031
+      spriteID: e7b49a152021add4bafaf5eb1175308c
+      internalID: 2128059170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_39
+      name: mountain_3_animatedGlow2_39
       rect:
         serializedVersion: 2
         x: 896
@@ -943,20 +943,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 033e327cc0dd22e4aa56571bfaecb90f
-      internalID: -539457791
+      spriteID: 00a3aeed8ae419541acc74a0754a011e
+      internalID: 395005890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_40
+      name: mountain_3_animatedGlow2_40
       rect:
         serializedVersion: 2
         x: 0
@@ -964,20 +964,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42018c013c5c2b2408c4765b2d7c8ef7
-      internalID: -993101699
+      spriteID: eb74068ebd0ff4549bfdcb8b9937e778
+      internalID: -1698762119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_41
+      name: mountain_3_animatedGlow2_41
       rect:
         serializedVersion: 2
         x: 128
@@ -985,20 +985,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 986615946d2f03941bfc95c4bede57a1
-      internalID: 1769820181
+      spriteID: 84316605281b6e843adc34dc4c0a6d1d
+      internalID: -1585310263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_42
+      name: mountain_3_animatedGlow2_42
       rect:
         serializedVersion: 2
         x: 256
@@ -1006,20 +1006,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b774cd83e93cb2b469b96b0d39e4216b
-      internalID: -608900756
+      spriteID: de4652e3824b55c44a8f8db4170b79e0
+      internalID: 1961240964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_43
+      name: mountain_3_animatedGlow2_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1027,20 +1027,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f67ee26aa15294a8f6e7e194b900dd
-      internalID: -410400948
+      spriteID: 43b400f5945324f45a3305d486e5c55f
+      internalID: 1711513684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_44
+      name: mountain_3_animatedGlow2_44
       rect:
         serializedVersion: 2
         x: 512
@@ -1048,20 +1048,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b95a43919a5eb4e9dbfbadb3c8b220
-      internalID: 1666366385
+      spriteID: 03244e123ba24c84da01f9c9322d76aa
+      internalID: 1673973601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_45
+      name: mountain_3_animatedGlow2_45
       rect:
         serializedVersion: 2
         x: 640
@@ -1069,20 +1069,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1249b8fde603a89468e263f8c7139e43
-      internalID: 1821549329
+      spriteID: 36a96148d8fecaf4fa891d9d6607e1ec
+      internalID: 973804719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_46
+      name: mountain_3_animatedGlow2_46
       rect:
         serializedVersion: 2
         x: 768
@@ -1090,20 +1090,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b5c1ec7d88cac44f8abfb89db526147
-      internalID: 1012830063
+      spriteID: 93744ceff7b1ec14eb7e83e0f3b47a3b
+      internalID: -2043948093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_47
+      name: mountain_3_animatedGlow2_47
       rect:
         serializedVersion: 2
         x: 896
@@ -1111,20 +1111,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d34c8a4d98f144eaf8079a733c1bd2
-      internalID: 2029694989
+      spriteID: 28b94d21ee89a9846b9e65734a773bb3
+      internalID: -1793182066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_48
+      name: mountain_3_animatedGlow2_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1132,20 +1132,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3f96604a2e8e27428cace9aef0dda08
-      internalID: -58943112
+      spriteID: f3e341ed344e0554e8df0608b88a7d24
+      internalID: -1945641939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_49
+      name: mountain_3_animatedGlow2_49
       rect:
         serializedVersion: 2
         x: 128
@@ -1153,20 +1153,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9870020ee1b386948b13435071942a6b
-      internalID: -1016530948
+      spriteID: dd9bf988286880a42806ae0db71226da
+      internalID: 2129964322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_50
+      name: mountain_3_animatedGlow2_50
       rect:
         serializedVersion: 2
         x: 256
@@ -1174,20 +1174,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d24519fe709304794cfef244e814a1
-      internalID: 344235950
+      spriteID: 3b02550f7fbb46b4db1d7b1148ee513a
+      internalID: -452263491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_51
+      name: mountain_3_animatedGlow2_51
       rect:
         serializedVersion: 2
         x: 384
@@ -1195,20 +1195,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 661ee159c9a9e7b4296cafa6f1242fe0
-      internalID: -46074713
+      spriteID: e95412963a2a3dc40bf59583dbe78ca0
+      internalID: 1836226336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_52
+      name: mountain_3_animatedGlow2_52
       rect:
         serializedVersion: 2
         x: 512
@@ -1216,20 +1216,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7ab4dd38762e064f8e987e6ae8815cf
-      internalID: -1227231766
+      spriteID: 11bf68b7a7653354d996cb14cb057f0e
+      internalID: 679858706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_53
+      name: mountain_3_animatedGlow2_53
       rect:
         serializedVersion: 2
         x: 640
@@ -1237,20 +1237,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92746225be251834aab9ae54aff92c08
-      internalID: 1384952742
+      spriteID: a74adf17852402f4280bb5ae12fe5abc
+      internalID: 1692542273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_54
+      name: mountain_3_animatedGlow2_54
       rect:
         serializedVersion: 2
         x: 768
@@ -1258,20 +1258,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b124003c279dab44890a7a365b3b47d9
-      internalID: 1040243112
+      spriteID: 0819b8344b9538646959bae2da87f455
+      internalID: -1487601625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_55
+      name: mountain_3_animatedGlow2_55
       rect:
         serializedVersion: 2
         x: 896
@@ -1279,20 +1279,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04a88d589c61b1842bcc440b782842b1
-      internalID: 545516828
+      spriteID: 8c40a920d1cb470459b9681babb3f0dc
+      internalID: -1618077970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_56
+      name: mountain_3_animatedGlow2_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1300,20 +1300,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7366f8b8f26beca47bdd40d324024bf8
-      internalID: 1378646405
+      spriteID: 936c6cf844de0cf44840ff63780802bd
+      internalID: -1842113390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_57
+      name: mountain_3_animatedGlow2_57
       rect:
         serializedVersion: 2
         x: 128
@@ -1321,20 +1321,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac4edf67008fdce4e88a6e3702975562
-      internalID: 200639204
+      spriteID: 5bcb0668149b6b243bc7a767011a62b3
+      internalID: 1901300023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_58
+      name: mountain_3_animatedGlow2_58
       rect:
         serializedVersion: 2
         x: 256
@@ -1342,20 +1342,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb1d79bb2628e6e4c85dabd3b45a753d
-      internalID: 1614375507
+      spriteID: 274a6c2282ed0004da0bc8c163862591
+      internalID: -1727437475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mountain_3_animated_59
+      name: mountain_3_animatedGlow2_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1363,14 +1363,98 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b5a1dd19044f0343abcfecac631878d
-      internalID: 757147466
+      spriteID: 4b451bf41215919438052d43f46ed041
+      internalID: -409793259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_3_animatedGlow2_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40de0866ad694b54cb90142f46c8a1cf
+      internalID: 816461510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_3_animatedGlow2_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a12b48f8760c346b81e4256882c9b9
+      internalID: 1039669702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_3_animatedGlow2_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af2e755ceb42714187d2bf36791892e
+      internalID: -1411957979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain_3_animatedGlow2_63
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b09c17c787ab84f8ede99f1e1b661e
+      internalID: -532160693
       vertices: []
       indices: 
       edges: []
@@ -1384,72 +1468,72 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 0ac06b388fa5cd443a6212ba8005faab, type: 3}
-      name: _Emission
-    - texture: {fileID: 2800000, guid: ac9eac73d382b614b87245160e4a59dd, type: 3}
-      name: _Emission1
+    secondaryTextures: []
     nameFileIdTable:
-      mountain_3_animated_4: -1417309002
-      mountain_3_animated_39: -539457791
-      mountain_3_animated_53: 1384952742
-      mountain_3_animated_24: 1960109937
-      mountain_3_animated_47: 2029694989
-      mountain_3_animated_55: 545516828
-      mountain_3_animated_30: -1698894777
-      mountain_3_animated_46: 1012830063
-      mountain_3_animated_58: 1614375507
-      mountain_3_animated_54: 1040243112
-      mountain_3_animated_2: -116015118
-      mountain_3_animated_3: -226901133
-      mountain_3_animated_5: 19453271
-      mountain_3_animated_8: -498699536
-      mountain_3_animated_0: -1593678393
-      mountain_3_animated_13: -1172554977
-      mountain_3_animated_10: -425376067
-      mountain_3_animated_33: 906943507
-      mountain_3_animated_36: -371587801
-      mountain_3_animated_26: -1664086439
-      mountain_3_animated_49: -1016530948
-      mountain_3_animated_37: -773748289
-      mountain_3_animated_56: 1378646405
-      mountain_3_animated_40: -993101699
-      mountain_3_animated_43: -410400948
-      mountain_3_animated_31: -902613178
-      mountain_3_animated_35: 1471220628
-      mountain_3_animated_6: 347144443
-      mountain_3_animated_11: -1916828484
-      mountain_3_animated_45: 1821549329
-      mountain_3_animated_32: -895137910
-      mountain_3_animated_27: -1398740091
-      mountain_3_animated_59: 757147466
-      mountain_3_animated_28: -1316571182
-      mountain_3_animated_9: -2146773126
-      mountain_3_animated_29: 857838598
-      mountain_3_animated_1: -404403304
-      mountain_3_animated_21: 960975227
-      mountain_3_animated_23: -1980340964
-      mountain_3_animated_44: 1666366385
-      mountain_3_animated_12: 1864178201
-      mountain_3_animated_38: -903279031
-      mountain_3_animated_18: 575978691
-      mountain_3_animated_25: -213923372
-      mountain_3_animated_34: -505250188
-      mountain_3_animated_16: 1054588310
-      mountain_3_animated_17: 1290247638
-      mountain_3_animated_22: 1316066662
-      mountain_3_animated_50: 344235950
-      mountain_3_animated_7: 1492896448
-      mountain_3_animated_57: 200639204
-      mountain_3_animated_52: -1227231766
-      mountain_3_animated_41: 1769820181
-      mountain_3_animated_19: -1388199558
-      mountain_3_animated_48: -58943112
-      mountain_3_animated_14: -142878506
-      mountain_3_animated_15: -1438850181
-      mountain_3_animated_42: -608900756
-      mountain_3_animated_20: -23992053
-      mountain_3_animated_51: -46074713
+      mountain_3_animatedGlow2_19: 1963508889
+      mountain_3_animatedGlow2_7: 1742301804
+      mountain_3_animatedGlow2_44: 1673973601
+      mountain_3_animatedGlow2_60: 816461510
+      mountain_3_animatedGlow2_1: -1998741888
+      mountain_3_animatedGlow2_58: -1727437475
+      mountain_3_animatedGlow2_45: 973804719
+      mountain_3_animatedGlow2_42: 1961240964
+      mountain_3_animatedGlow2_6: 340645310
+      mountain_3_animatedGlow2_31: 1088174414
+      mountain_3_animatedGlow2_20: -1770274317
+      mountain_3_animatedGlow2_40: -1698762119
+      mountain_3_animatedGlow2_51: 1836226336
+      mountain_3_animatedGlow2_4: -669766762
+      mountain_3_animatedGlow2_43: 1711513684
+      mountain_3_animatedGlow2_16: -1258409943
+      mountain_3_animatedGlow2_14: 1862447279
+      mountain_3_animatedGlow2_2: 1023433721
+      mountain_3_animatedGlow2_25: 908492605
+      mountain_3_animatedGlow2_33: 1183630552
+      mountain_3_animatedGlow2_63: -532160693
+      mountain_3_animatedGlow2_8: 1843030846
+      mountain_3_animatedGlow2_22: 1466274752
+      mountain_3_animatedGlow2_38: 2128059170
+      mountain_3_animatedGlow2_53: 1692542273
+      mountain_3_animatedGlow2_29: -1391299891
+      mountain_3_animatedGlow2_39: 395005890
+      mountain_3_animatedGlow2_50: -452263491
+      mountain_3_animatedGlow2_57: 1901300023
+      mountain_3_animatedGlow2_27: -134422131
+      mountain_3_animatedGlow2_35: -1519230432
+      mountain_3_animatedGlow2_61: 1039669702
+      mountain_3_animatedGlow2_9: -1306200760
+      mountain_3_animatedGlow2_17: -765999953
+      mountain_3_animatedGlow2_62: -1411957979
+      mountain_3_animatedGlow2_24: -1356157582
+      mountain_3_animatedGlow2_30: 621398579
+      mountain_3_animatedGlow2_13: 180384058
+      mountain_3_animatedGlow2_32: -1749160282
+      mountain_3_animatedGlow2_49: 2129964322
+      mountain_3_animatedGlow2_46: -2043948093
+      mountain_3_animatedGlow2_26: 1784710261
+      mountain_3_animatedGlow2_36: -1338462938
+      mountain_3_animatedGlow2_54: -1487601625
+      mountain_3_animatedGlow2_21: -1133432549
+      mountain_3_animatedGlow2_18: -975993522
+      mountain_3_animatedGlow2_23: -353113158
+      mountain_3_animatedGlow2_3: 1207637129
+      mountain_3_animatedGlow2_10: 334782219
+      mountain_3_animatedGlow2_59: -409793259
+      mountain_3_animatedGlow2_11: 35727252
+      mountain_3_animatedGlow2_48: -1945641939
+      mountain_3_animatedGlow2_15: 950727942
+      mountain_3_animatedGlow2_34: -1192762729
+      mountain_3_animatedGlow2_28: 1339579703
+      mountain_3_animatedGlow2_12: 1569856421
+      mountain_3_animatedGlow2_41: -1585310263
+      mountain_3_animatedGlow2_37: -1579077754
+      mountain_3_animatedGlow2_5: -148279941
+      mountain_3_animatedGlow2_55: -1618077970
+      mountain_3_animatedGlow2_56: -1842113390
+      mountain_3_animatedGlow2_0: -1017734791
+      mountain_3_animatedGlow2_47: -1793182066
+      mountain_3_animatedGlow2_52: 679858706
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
