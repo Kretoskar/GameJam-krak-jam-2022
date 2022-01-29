@@ -11,15 +11,16 @@ namespace Game.Control.Enemy.Dolphin
         [SerializeField] private Bullet bullet;
         [SerializeField] private float bulletSpawnDistance = 1;
         [SerializeField] private float jumpAttackXMove = 2;
-        [SerializeField] private float maxPosX = 9;
         
         private Collider2D coll;
         private Animator animator;
+        private Rigidbody2D rb;
 
         private void Awake()
         {
             coll = GetComponent<Collider2D>();
             animator = GetComponent<Animator>();
+            rb = GetComponent<Rigidbody2D>();
         }
         
         public void Enter(StateMachine sm)
@@ -34,11 +35,11 @@ namespace Game.Control.Enemy.Dolphin
 
         public void Exit()
         {
-            if (transform.position.x < maxPosX)
-            {
-                transform.position = new Vector3(transform.position.x + jumpAttackXMove, transform.position.y,
-                    transform.position.z);
-            }
+            Vector3 desiredPosition = new Vector3(transform.position.x + jumpAttackXMove, transform.position.y,
+                transform.position.z);
+            
+            if(Physics2D.OverlapCircleAll(transform.position, 2,~0).Length < 2)
+                rb.MovePosition(desiredPosition);
 
             Shoot();
         }
