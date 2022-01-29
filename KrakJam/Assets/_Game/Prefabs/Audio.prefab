@@ -51,7 +51,7 @@ MonoBehaviour:
   level1Music: {fileID: 8300000, guid: a4115f0a91c607245a67f12e9b2c859f, type: 3}
   level2Music: {fileID: 8300000, guid: 49fc589177fa4bc49b041c576d99debf, type: 3}
   level3Music: {fileID: 8300000, guid: 3c74a7132f5e78347baacad2501db264, type: 3}
-  bossMusic: {fileID: 8300000, guid: 5120cc9d2896be84cb9df05f5d5c8443, type: 3}
+  bossMusic: {fileID: 8300000, guid: 67723911f3f546a41abd7b181f6f9166, type: 3}
   lastSpeech: {fileID: 8300000, guid: eab6a5dad9b36b240b38f4bd11b00097, type: 3}
   minBloom: 0.5
   maxBloom: 2
