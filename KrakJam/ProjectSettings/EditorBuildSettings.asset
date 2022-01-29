@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Sandbox/Oskar/Level2.unity
     guid: 4776277de3375ac4b9a51f52c8a4dfba
+  - enabled: 1
+    path: Assets/_Game/Sandbox/Oskar/Level3.unity
+    guid: 6f3ac6829b4a2f64eba5081c73c1927f
+  - enabled: 1
+    path: Assets/_Game/Sandbox/Oskar/Boss.unity
+    guid: 563c7f22c0a45ad4cbdbeb9a6cf08ba7
   m_configObjects: {}
