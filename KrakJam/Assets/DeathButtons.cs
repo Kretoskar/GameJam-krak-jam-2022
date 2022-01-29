@@ -17,6 +17,7 @@ public class DeathButtons : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.B))
         {
+            GameAudio.Instance.ChangeToMainMenu();
             SceneManager.LoadScene(1);
         }
     }
