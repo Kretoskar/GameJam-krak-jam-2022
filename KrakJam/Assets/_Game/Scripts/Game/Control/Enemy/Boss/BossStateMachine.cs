@@ -13,6 +13,7 @@ public class BossStateMachine : StateMachine
 {
     [SerializeField] private float idleTime = 1;
     [SerializeField] private float attackTime = 1;
+    [SerializeField] private Bullet bullet;
     
     
     private BossStateIdle idleState;
@@ -51,7 +52,7 @@ public class BossStateMachine : StateMachine
     {
         if (animator.IsInTransition(0))
         {
-            if (animator.GetAnimatorTransitionInfo(0).duration > .15f)
+            if (animator.GetAnimatorTransitionInfo(0).duration < .15f)
             {
                 ChangeState(idleState);
             }
