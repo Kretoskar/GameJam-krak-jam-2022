@@ -12,6 +12,8 @@ namespace Game.Combat
         [SerializeField] [Range(0,100)] private float ySpawnSpace = 10;
         [SerializeField] private GameObject winObject;
 
+        [SerializeField] private List<PlayerHealth> playerHp;
+
         private int enemiesLeft;
         private int currentWave = 0;
         private AI.Astar.Grid grid;
@@ -31,6 +33,11 @@ namespace Game.Combat
                 Vector2 pos;
                 var spawnedEnemy = Instantiate(enemy, SpawnPos(), Quaternion.identity);
                 spawnedEnemy.Death += UpdateCounter;
+            }
+            
+            foreach (var playerHealth in playerHp)
+            {
+                playerHealth.HealAll();
             }
         }
 

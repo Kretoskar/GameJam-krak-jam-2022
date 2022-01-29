@@ -47,6 +47,14 @@ namespace Game.Combat
             ShowHeart(currentHealh - 1);
         }
 
+        public void HealAll()
+        {
+            while (currentHealh < maxHealth)
+            {
+                Heal();
+            }
+        }
+
         private void HideHeart(int index)
         {
             hearts[index].SetActive(false);

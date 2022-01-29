@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 1988051174866698197}
   - component: {fileID: 1988051174866698196}
   m_Layer: 19
-  m_Name: DolphinSoul
+  m_Name: DolphinSoulLong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   state: 
   asynchronousStatesNames: []
   appearTime: 1
-  moveTime: 3
+  moveTime: 5
   attackTime: 1.8
 --- !u!114 &1988051174866698198
 MonoBehaviour:
