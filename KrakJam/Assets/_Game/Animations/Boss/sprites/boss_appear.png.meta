@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 820d42827e4b31d47816371f20d42b60
+guid: db8aeedeb0c499b42b3e0b3d61047c3a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,7 +116,574 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: death_0
+      name: boss_appear_0
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3398cc681ce98f4fade2072de7b0148
+      internalID: -1342840444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_1
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b93513f4947bef42a3d50df811d5f1b
+      internalID: -429388327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_2
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09491355c84fef7428d9f8cb372b750b
+      internalID: -45435739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_3
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7526725eae0c7cd46993dc90cca99dfd
+      internalID: -12199149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_4
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad06c20c16fe814abd2d2f7ee4248c3
+      internalID: 1038557136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_5
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50de4bfbb21cf245847913331a3e132
+      internalID: -216046909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_6
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 6528
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7fd497de5e3444eb65736b98a2c213
+      internalID: 1221138316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44987d7536a4d814690cc3cc63c7e020
+      internalID: -1512479313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db373044224e614d89be1f8d5b5627f
+      internalID: -623182352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_9
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dac9488c6cffb429da79db2a422f0e
+      internalID: -614987467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_10
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af71dff674980641bd143b0d7d6792d
+      internalID: 2107269384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_11
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded84d8755374f84bb03308dc2e94440
+      internalID: 1865961479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_12
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e65e736ab0044742aa0afc9e8015155
+      internalID: 677657322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_13
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4c16c7a3a5a484fa0e0d7a68ef0714
+      internalID: -83394963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_14
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1f77d5e490c8f48aab12ba95ee8b1a
+      internalID: -652209028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_15
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f620427f6f6b8f4fa614fee454813de
+      internalID: 1117678763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_16
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 5712
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f1a1180691a0c46ad12b95489daf14
+      internalID: -89172663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fb0347748633d4a8734b5304ce6122
+      internalID: 1720886285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_18
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1096ddba8f9ff479436fc019ce7cf7
+      internalID: 1236242266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_19
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097a2c4f64318f1439e305e90d635c26
+      internalID: 425138553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_20
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee21c4593b3e67a41af4181bfe829538
+      internalID: -1487096913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_21
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488aab26d18266445ab4485ee14e7cbb
+      internalID: -969002514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_22
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162f0b2b74c94864bb4489edbc553b42
+      internalID: -197593202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_23
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ac58ec34eb2684c8686a34016cf624
+      internalID: 1763179918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_24
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1aab0d460be3744b57073fa1e081c5
+      internalID: -123377921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_25
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec91833fcdbe244597e63758a44b7f0
+      internalID: -1495418343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_26
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 4896
+        width: 816
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52df1603ff0ad8c4e8a9e5b3bfe0304b
+      internalID: 1446575379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_appear_27
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8a6b89ea0e2a8841845a3a97e1cbea7
-      internalID: -874180942
+      spriteID: 1fe58ae82a132454fbed6f5caa4407fb
+      internalID: 793952790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_1
+      name: boss_appear_28
       rect:
         serializedVersion: 2
         x: 816
@@ -151,14 +718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12e9ae259f732994db051854a15fd681
-      internalID: -1950260033
+      spriteID: 03702f482ff0fb24ea5c226697502d84
+      internalID: -1492737059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_2
+      name: boss_appear_29
       rect:
         serializedVersion: 2
         x: 1632
@@ -172,14 +739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf29788010a0dd34fad430206e81febe
-      internalID: -334709144
+      spriteID: 6eb5fc0bc29f3df43b4274146ed68685
+      internalID: -1056800909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_3
+      name: boss_appear_30
       rect:
         serializedVersion: 2
         x: 2448
@@ -193,14 +760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fcbdf4f3e8493e489df814a355d5808
-      internalID: 1100360752
+      spriteID: 83fc7b1545e6ff94ea1c4c0bf906a618
+      internalID: 1272141205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_4
+      name: boss_appear_31
       rect:
         serializedVersion: 2
         x: 3264
@@ -214,14 +781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f7c165ab4a52df4ca76f14596767b01
-      internalID: -22481765
+      spriteID: 5f358d597505a4741b7fd8494d7e33ac
+      internalID: 845615623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_5
+      name: boss_appear_32
       rect:
         serializedVersion: 2
         x: 4080
@@ -235,14 +802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4994ab13db725c8499ee9102b76e16e8
-      internalID: 955940791
+      spriteID: d333864b1f4abe64a9a30e38b385bb82
+      internalID: -1245273711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_6
+      name: boss_appear_33
       rect:
         serializedVersion: 2
         x: 4896
@@ -256,14 +823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9068ce5d59e63bb45b4352f3b0b2e948
-      internalID: 992865242
+      spriteID: 403f517ec7560dd4a87c88ab2421bcaa
+      internalID: 183052024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_7
+      name: boss_appear_34
       rect:
         serializedVersion: 2
         x: 5712
@@ -277,14 +844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a1dffe7abe92f4ca48144dfb35a68f
-      internalID: 1383910941
+      spriteID: 9f2d201f4fd69b6448876d405d977547
+      internalID: -572736624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_8
+      name: boss_appear_35
       rect:
         serializedVersion: 2
         x: 6528
@@ -298,14 +865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eef322f1510f92640936e721b89b8c72
-      internalID: 1404779968
+      spriteID: 304d8fe1e9839d24d95b8349aacd4264
+      internalID: -1788230350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_9
+      name: boss_appear_36
       rect:
         serializedVersion: 2
         x: 7344
@@ -319,14 +886,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e67654f6efd7c014eb6479fd8d1e37d0
-      internalID: 510587302
+      spriteID: 5f2760f48bb551b43a9dedf603e7c12a
+      internalID: -1045872466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_10
+      name: boss_appear_37
       rect:
         serializedVersion: 2
         x: 0
@@ -340,14 +907,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099db5226bc94384394474c6af62ab24
-      internalID: 563974243
+      spriteID: 3b3394c0ed37fde4db82a32a11207e41
+      internalID: 1516686585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_11
+      name: boss_appear_38
       rect:
         serializedVersion: 2
         x: 816
@@ -361,14 +928,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6b9ce7a1ba83794aa7963ce142f1662
-      internalID: -730058842
+      spriteID: 640e689ce4c988e4ebec15ce10c4bf0d
+      internalID: -423263641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_12
+      name: boss_appear_39
       rect:
         serializedVersion: 2
         x: 1632
@@ -382,14 +949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e632a6ef96b17bf4696dd358a61ddc51
-      internalID: -1306479797
+      spriteID: 75fef11de4c595b4186bb639687244f1
+      internalID: 1491699046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_13
+      name: boss_appear_40
       rect:
         serializedVersion: 2
         x: 2448
@@ -403,14 +970,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25c3016c636f11c449130a1e88a8cc3b
-      internalID: 1076181776
+      spriteID: 0c230d83db2ee42498157e46ea78ea73
+      internalID: 1627535550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_14
+      name: boss_appear_41
       rect:
         serializedVersion: 2
         x: 3264
@@ -424,14 +991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a874ff3ca88c6e4f84e16e1120255ec
-      internalID: -140918722
+      spriteID: d9c7f90f7527d9943921dcb168efefd5
+      internalID: -216558329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_15
+      name: boss_appear_42
       rect:
         serializedVersion: 2
         x: 4080
@@ -445,14 +1012,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c7148e9b40a9df419664a7bc43708db
-      internalID: 118418832
+      spriteID: 47818628ebab58f4fac354f4bc628844
+      internalID: -280083374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_16
+      name: boss_appear_43
       rect:
         serializedVersion: 2
         x: 4896
@@ -466,14 +1033,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 568f90ae0be2df84fb09849d25497695
-      internalID: 1956429352
+      spriteID: 11dcf48ae52c14b4fa16e778a812477d
+      internalID: -974168606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_17
+      name: boss_appear_44
       rect:
         serializedVersion: 2
         x: 5712
@@ -487,14 +1054,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 943701212a88bfa469d17b8c211bcf0b
-      internalID: 989905163
+      spriteID: b008c8c44ab57534397655d0441e1dc0
+      internalID: -197476664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_18
+      name: boss_appear_45
       rect:
         serializedVersion: 2
         x: 6528
@@ -508,14 +1075,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4b21eb7f600ba246ac89eea891dd921
-      internalID: -1198780406
+      spriteID: 23c014a61d7f3dc44bf57097d24e16b0
+      internalID: 1320354050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_19
+      name: boss_appear_46
       rect:
         serializedVersion: 2
         x: 7344
@@ -529,14 +1096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c8e4589c8f9ef74e9efcc18d2783897
-      internalID: -1327816474
+      spriteID: f0cd7507f2e836d4aa3bcbbf9218886d
+      internalID: -652995593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_20
+      name: boss_appear_47
       rect:
         serializedVersion: 2
         x: 0
@@ -550,14 +1117,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31c4b7cfa4695834d9ffd8cf6707ca48
-      internalID: 515578946
+      spriteID: 3bd4d6c3b99e27f42b4b49f498aa8b21
+      internalID: -1977805089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_21
+      name: boss_appear_48
       rect:
         serializedVersion: 2
         x: 816
@@ -571,14 +1138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c0bacfe7c1b75348a562206de3d5085
-      internalID: -1556452391
+      spriteID: eb2c717bb25e7cd4ca4824016e376d29
+      internalID: 1009092903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_22
+      name: boss_appear_49
       rect:
         serializedVersion: 2
         x: 1632
@@ -592,14 +1159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2dd18f7806be4642936702b52353814
-      internalID: 1478436309
+      spriteID: 42402007d61110d4087e469a6628d48a
+      internalID: 1720903111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_23
+      name: boss_appear_50
       rect:
         serializedVersion: 2
         x: 2448
@@ -613,14 +1180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3449f0bf982e6b747be3bbe7b7a00c66
-      internalID: 1771891286
+      spriteID: ada32c50223bde645bdd3517a1f9a2bc
+      internalID: -2038266213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_24
+      name: boss_appear_51
       rect:
         serializedVersion: 2
         x: 3264
@@ -634,14 +1201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a36581763a433474b84d77b5c69e82da
-      internalID: -728548494
+      spriteID: 1ef447b16e2eac248a66ce9d7f530e03
+      internalID: -1249613044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_25
+      name: boss_appear_52
       rect:
         serializedVersion: 2
         x: 4080
@@ -655,14 +1222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51f270a5e22ced3428223de8dde64510
-      internalID: -1981508704
+      spriteID: bb36b93a184735a40b753a86415b9cf5
+      internalID: 665523914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_26
+      name: boss_appear_53
       rect:
         serializedVersion: 2
         x: 4896
@@ -676,14 +1243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37859d69f5216564fb394fd7afa589ca
-      internalID: 372474513
+      spriteID: 4105c3518f9356c4dbfc3ec8c75d9f50
+      internalID: -640660671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_27
+      name: boss_appear_54
       rect:
         serializedVersion: 2
         x: 5712
@@ -697,14 +1264,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ce36f7b504c3ab459892b34bdbba260
-      internalID: -1880136951
+      spriteID: 04096526e388d664e931b242bde00415
+      internalID: 366613315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_28
+      name: boss_appear_55
       rect:
         serializedVersion: 2
         x: 6528
@@ -718,14 +1285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83831b5b4c0e2ea4799995f8f3d87588
-      internalID: 83611648
+      spriteID: dc220f153d061b946a2eb5d8ec955cd1
+      internalID: 1162537354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_29
+      name: boss_appear_56
       rect:
         serializedVersion: 2
         x: 7344
@@ -739,14 +1306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbf1a85c531bcb048aa5b43092c521a3
-      internalID: 1617879616
+      spriteID: 08ddfe1ef49bff447b22b187b726779d
+      internalID: 481772127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_30
+      name: boss_appear_57
       rect:
         serializedVersion: 2
         x: 0
@@ -760,14 +1327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86f23f354ed0288458ee22bd162c60e1
-      internalID: 1470953220
+      spriteID: a769e07fc729e72468ace90dd03a8c77
+      internalID: 598559677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_31
+      name: boss_appear_58
       rect:
         serializedVersion: 2
         x: 816
@@ -781,14 +1348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 465a548f516f3ef45bb71ee8ea1c8e4f
-      internalID: 1205841782
+      spriteID: bcfddd3b7364d764abac6e8f5d549507
+      internalID: 983216239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_32
+      name: boss_appear_59
       rect:
         serializedVersion: 2
         x: 1632
@@ -802,14 +1369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fc9d408996a3f14fb28f35c1d251e8f
-      internalID: -1980213562
+      spriteID: 17a7f9386166c554d915417b67ddfd54
+      internalID: -1203866372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_33
+      name: boss_appear_60
       rect:
         serializedVersion: 2
         x: 2448
@@ -823,14 +1390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef5ece3f5a6f0234a9ca9e5ddafcb0f1
-      internalID: -434291852
+      spriteID: f8b714eb6f6957543805a45a9ce78ac5
+      internalID: 563852995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_34
+      name: boss_appear_61
       rect:
         serializedVersion: 2
         x: 3264
@@ -844,14 +1411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3fbec06399ffc148b53af496c1a680c
-      internalID: 1048376242
+      spriteID: d26d02196d27b3643aa3f192b8167b8a
+      internalID: 121404027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_35
+      name: boss_appear_62
       rect:
         serializedVersion: 2
         x: 4080
@@ -865,14 +1432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c631ea2c92478643868885a8d8d88ca
-      internalID: -1262484339
+      spriteID: d044447374a14434ab1c88a6ef7734ef
+      internalID: 237626050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_36
+      name: boss_appear_63
       rect:
         serializedVersion: 2
         x: 4896
@@ -886,14 +1453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bbfd1760abec904fb02a03dc7b43dfa
-      internalID: -1957179174
+      spriteID: 238a47cde5f7129488369c97f05de35b
+      internalID: -309968941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_37
+      name: boss_appear_64
       rect:
         serializedVersion: 2
         x: 5712
@@ -907,14 +1474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67d5378f268901845b85383fb1273c21
-      internalID: -1030738914
+      spriteID: f1ff1b8175a8aea49a462c5e34c60203
+      internalID: -997243654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_38
+      name: boss_appear_65
       rect:
         serializedVersion: 2
         x: 6528
@@ -928,14 +1495,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9267e50aea89eb141b9b996cd33d007d
-      internalID: -1649061045
+      spriteID: 25ccd7278ff62d74e8289f0c80c6c632
+      internalID: 474139356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_39
+      name: boss_appear_66
       rect:
         serializedVersion: 2
         x: 7344
@@ -949,14 +1516,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a38956fc43dcb07458cd24a64b6717f4
-      internalID: -2088204229
+      spriteID: 240a1c22043d02740a1eae9236bf490b
+      internalID: 1980257321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_40
+      name: boss_appear_67
       rect:
         serializedVersion: 2
         x: 0
@@ -970,14 +1537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da6459f743c3e4f4ea1c28a73e3c31d6
-      internalID: 246549864
+      spriteID: 446de07d1f7577e469efb6de9f76e36f
+      internalID: -541242734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_41
+      name: boss_appear_68
       rect:
         serializedVersion: 2
         x: 816
@@ -991,14 +1558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0213349e4aef7646895887868065608
-      internalID: -907323718
+      spriteID: 2279444a85c0cd742b11f0ba2c7f3352
+      internalID: -1269981718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_42
+      name: boss_appear_69
       rect:
         serializedVersion: 2
         x: 1632
@@ -1012,14 +1579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b93429ea8e8aace4e8596dfbd7e87b99
-      internalID: 860832892
+      spriteID: 66ef74775bf9e214bb945c7f0b20b69c
+      internalID: 662056228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_43
+      name: boss_appear_70
       rect:
         serializedVersion: 2
         x: 2448
@@ -1033,14 +1600,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f109d7cd3e66347ae9b20110a4ec0d
-      internalID: -259707145
+      spriteID: 285c2780f764e9946b8b63e00cdf8f01
+      internalID: -652805909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_44
+      name: boss_appear_71
       rect:
         serializedVersion: 2
         x: 3264
@@ -1054,14 +1621,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71e7dd89904cb484fb087701e5478420
-      internalID: -87157217
+      spriteID: 1ab934e8d423b6f438dea52eea2876e3
+      internalID: -2050166103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_45
+      name: boss_appear_72
       rect:
         serializedVersion: 2
         x: 4080
@@ -1075,14 +1642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6ee98dcceb9dad438b70e341d565aab
-      internalID: 1151299333
+      spriteID: 2735180f44e2c9c4ca69eeb9a30871da
+      internalID: 516671976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_46
+      name: boss_appear_73
       rect:
         serializedVersion: 2
         x: 4896
@@ -1096,14 +1663,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ce8281997cc3944b8859b4f7dd6a4ce
-      internalID: 1404969175
+      spriteID: d5b68bae30bb09a478d5f5e7764a9e9f
+      internalID: 1589059862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_47
+      name: boss_appear_74
       rect:
         serializedVersion: 2
         x: 5712
@@ -1117,14 +1684,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2d64ee33b3b4ad43b0c00afb45c7dc8
-      internalID: -997331235
+      spriteID: 3cc3c51f58d9b944d8a7de31d425c8a4
+      internalID: -295726010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_48
+      name: boss_appear_75
       rect:
         serializedVersion: 2
         x: 6528
@@ -1138,14 +1705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e12a98bd35f27b24b88798a115ddae5d
-      internalID: -171993533
+      spriteID: 5adcbc0137eda344ea1c89d42e2c7c79
+      internalID: 1823825430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_49
+      name: boss_appear_76
       rect:
         serializedVersion: 2
         x: 7344
@@ -1159,14 +1726,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 908d0c5bfe765b1498e933efb4c0d589
-      internalID: -170601516
+      spriteID: eec7f0766d260604eaeace5c173cfcb8
+      internalID: -1546250265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_50
+      name: boss_appear_77
       rect:
         serializedVersion: 2
         x: 0
@@ -1180,14 +1747,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0652696e8a2f4b542a1fa29ae2c4119b
-      internalID: 2053849772
+      spriteID: c022faf235d781148984b71dc30381d9
+      internalID: -52470173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_51
+      name: boss_appear_78
       rect:
         serializedVersion: 2
         x: 816
@@ -1201,14 +1768,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1660db247f6c00b458d730f685640e75
-      internalID: 1839632819
+      spriteID: 572bab9ba1d0bc84fb3101169531dcd0
+      internalID: -522183863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_52
+      name: boss_appear_79
       rect:
         serializedVersion: 2
         x: 1632
@@ -1222,14 +1789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c675772a2acdea24a93d0382c30368ff
-      internalID: 909442576
+      spriteID: dc3648f97005a41408a439c64c64134b
+      internalID: -105947814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death_53
+      name: boss_appear_80
       rect:
         serializedVersion: 2
         x: 2448
@@ -1243,134 +1810,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13ebf1ff52842d34f922b7f548a2eacb
-      internalID: 969987647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_54
-      rect:
-        serializedVersion: 2
-        x: 3264
-        y: 0
-        width: 816
-        height: 816
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba3a26f99d5ff3846b88138cedfd59b3
-      internalID: -911717386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_55
-      rect:
-        serializedVersion: 2
-        x: 4080
-        y: 0
-        width: 816
-        height: 816
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07cf65d38a7b4b54faa0c30c6a6ad9f3
-      internalID: -740531827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_56
-      rect:
-        serializedVersion: 2
-        x: 4896
-        y: 0
-        width: 816
-        height: 816
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df72313359bb5024aba9e1a9d340b427
-      internalID: 1756110483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_57
-      rect:
-        serializedVersion: 2
-        x: 5712
-        y: 0
-        width: 816
-        height: 816
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3a38742a1dfa7e4daf20089e1bb83bb
-      internalID: 711526281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_58
-      rect:
-        serializedVersion: 2
-        x: 6528
-        y: 0
-        width: 816
-        height: 816
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b89e4c1be919d046911b27d06946b98
-      internalID: -942968896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_59
-      rect:
-        serializedVersion: 2
-        x: 7344
-        y: 0
-        width: 816
-        height: 816
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac06327308c1d754c899007a4bbf9241
-      internalID: -1718250774
+      spriteID: 302f89c3a8b443545b6be13128d08853
+      internalID: -994132530
       vertices: []
       indices: 
       edges: []
@@ -1385,69 +1826,92 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures:
+    - texture: {fileID: 2800000, guid: dfeff3ed809b92542836719d799956fc, type: 3}
+      name: _Emission
     - texture: {fileID: 2800000, guid: 53959a2e1cb628d48b99e3832775815c, type: 3}
       name: _Emission1
     nameFileIdTable:
-      death_9: 510587302
-      death_46: 1404969175
-      death_21: -1556452391
-      death_32: -1980213562
-      death_10: 563974243
-      death_42: 860832892
-      death_5: 955940791
-      death_37: -1030738914
-      death_47: -997331235
-      death_34: 1048376242
-      death_16: 1956429352
-      death_26: 372474513
-      death_12: -1306479797
-      death_31: 1205841782
-      death_41: -907323718
-      death_28: 83611648
-      death_53: 969987647
-      death_52: 909442576
-      death_50: 2053849772
-      death_22: 1478436309
-      death_49: -170601516
-      death_19: -1327816474
-      death_1: -1950260033
-      death_59: -1718250774
-      death_57: 711526281
-      death_40: 246549864
-      death_44: -87157217
-      death_36: -1957179174
-      death_7: 1383910941
-      death_11: -730058842
-      death_45: 1151299333
-      death_15: 118418832
-      death_8: 1404779968
-      death_30: 1470953220
-      death_43: -259707145
-      death_6: 992865242
-      death_24: -728548494
-      death_56: 1756110483
-      death_39: -2088204229
-      death_48: -171993533
-      death_38: -1649061045
-      death_25: -1981508704
-      death_14: -140918722
-      death_29: 1617879616
-      death_54: -911717386
-      death_33: -434291852
-      death_3: 1100360752
-      death_55: -740531827
-      death_58: -942968896
-      death_4: -22481765
-      death_20: 515578946
-      death_23: 1771891286
-      death_13: 1076181776
-      death_35: -1262484339
-      death_0: -874180942
-      death_2: -334709144
-      death_17: 989905163
-      death_27: -1880136951
-      death_18: -1198780406
-      death_51: 1839632819
+      boss_appear_64: -997243654
+      boss_appear_33: 183052024
+      boss_appear_56: 481772127
+      boss_appear_26: 1446575379
+      boss_appear_47: -1977805089
+      boss_appear_68: -1269981718
+      boss_appear_30: 1272141205
+      boss_appear_12: 677657322
+      boss_appear_27: 793952790
+      boss_appear_5: -216046909
+      boss_appear_36: -1045872466
+      boss_appear_11: 1865961479
+      boss_appear_41: -216558329
+      boss_appear_38: -423263641
+      boss_appear_54: 366613315
+      boss_appear_9: -614987467
+      boss_appear_21: -969002514
+      boss_appear_29: -1056800909
+      boss_appear_16: -89172663
+      boss_appear_61: 121404027
+      boss_appear_69: 662056228
+      boss_appear_37: 1516686585
+      boss_appear_46: -652995593
+      boss_appear_42: -280083374
+      boss_appear_67: -541242734
+      boss_appear_20: -1487096913
+      boss_appear_71: -2050166103
+      boss_appear_31: 845615623
+      boss_appear_23: 1763179918
+      boss_appear_80: -994132530
+      boss_appear_53: -640660671
+      boss_appear_7: -1512479313
+      boss_appear_10: 2107269384
+      boss_appear_77: -52470173
+      boss_appear_73: 1589059862
+      boss_appear_65: 474139356
+      boss_appear_0: -1342840444
+      boss_appear_72: 516671976
+      boss_appear_44: -197476664
+      boss_appear_51: -1249613044
+      boss_appear_75: 1823825430
+      boss_appear_32: -1245273711
+      boss_appear_78: -522183863
+      boss_appear_43: -974168606
+      boss_appear_45: 1320354050
+      boss_appear_13: -83394963
+      boss_appear_1: -429388327
+      boss_appear_8: -623182352
+      boss_appear_15: 1117678763
+      boss_appear_2: -45435739
+      boss_appear_3: -12199149
+      boss_appear_24: -123377921
+      boss_appear_28: -1492737059
+      boss_appear_14: -652209028
+      boss_appear_6: 1221138316
+      boss_appear_17: 1720886285
+      boss_appear_18: 1236242266
+      boss_appear_40: 1627535550
+      boss_appear_49: 1720903111
+      boss_appear_25: -1495418343
+      boss_appear_39: 1491699046
+      boss_appear_55: 1162537354
+      boss_appear_63: -309968941
+      boss_appear_58: 983216239
+      boss_appear_50: -2038266213
+      boss_appear_66: 1980257321
+      boss_appear_60: 563852995
+      boss_appear_4: 1038557136
+      boss_appear_22: -197593202
+      boss_appear_79: -105947814
+      boss_appear_19: 425138553
+      boss_appear_76: -1546250265
+      boss_appear_57: 598559677
+      boss_appear_70: -652805909
+      boss_appear_35: -1788230350
+      boss_appear_48: 1009092903
+      boss_appear_52: 665523914
+      boss_appear_34: -572736624
+      boss_appear_74: -295726010
+      boss_appear_59: -1203866372
+      boss_appear_62: 237626050
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

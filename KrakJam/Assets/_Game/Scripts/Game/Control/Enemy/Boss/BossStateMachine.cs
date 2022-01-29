@@ -11,6 +11,7 @@ using UnityEngine;
 [RequireComponent(typeof(EnemyHealth))]
 public class BossStateMachine : StateMachine
 {
+    [SerializeField] private float appearTime = 3;
     [SerializeField] private float idleTime = 1;
     [SerializeField] private float attackTime = 1;
     [SerializeField] private Bullet bullet;
@@ -22,6 +23,8 @@ public class BossStateMachine : StateMachine
     private EnemyHealth health;
 
     private Animator animator;
+
+    private float timer;
 
     private void Awake()
     {
@@ -46,10 +49,18 @@ public class BossStateMachine : StateMachine
     private void Start()
     {
         ChangeState(idleState);
+
+        timer = 0;
     }
     
     private void Update()
     {
+        if (timer < appearTime)
+        {
+            timer += Time.deltaTime;
+            return;
+        }
+        
         if (animator.IsInTransition(0))
         {
             if (animator.GetAnimatorTransitionInfo(0).duration < .15f)
