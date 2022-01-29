@@ -6,7 +6,7 @@ namespace Game.AI.Astar
 {
     public class AStarUnit : MonoBehaviour
     {
-        [SerializeField] private Transform[] Targets;
+        [SerializeField] private List<Transform> Targets;
         
         private float speed = 10;
         private Vector3[] path;
@@ -16,6 +16,13 @@ namespace Game.AI.Astar
         
         private void Start()
         {
+            GameObject[] gos = GameObject.FindGameObjectsWithTag("Player");
+            
+            foreach (var go in gos)
+            {
+                Targets.Add(go.transform);
+            }
+            
             StartCoroutine(FindPathContinously());
         }
 

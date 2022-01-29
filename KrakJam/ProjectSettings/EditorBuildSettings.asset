@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/MainMenu.unity
     guid: e7e1d829adec39e4b813fa5ac43021af
   - enabled: 1
-    path: Assets/_Game/Sandbox/Oskar/OskarSandbox.unity
+    path: Assets/_Game/Sandbox/Oskar/Level1.unity
     guid: 9e2106e6af2eb3a4781a2bb6c44b4e62
   m_configObjects: {}
