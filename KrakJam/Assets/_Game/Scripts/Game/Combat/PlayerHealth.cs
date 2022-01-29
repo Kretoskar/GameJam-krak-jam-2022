@@ -15,7 +15,7 @@ namespace Game.Combat
         
         public override void GetHit()
         {
-            return;
+           // return;
             
             currentHealh--;
             
