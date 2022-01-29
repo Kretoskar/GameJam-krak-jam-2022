@@ -64,42 +64,42 @@ public class GameAudio : MonoBehaviour
 
     public void ChangeToMainMenu()
     {
-        StartCoroutine(MusicTransitionCoroutine(menuMusic));
+        StartCoroutine(MusicTransitionCoroutine(menuMusic, true));
     }
 
     public void ChangeToLevel1()
     {
-        StartCoroutine(MusicTransitionCoroutine(level1Music));
+        StartCoroutine(MusicTransitionCoroutine(level1Music, true));
     }
 
     public void ChangeToLevel2()
     {
-        StartCoroutine(MusicTransitionCoroutine(level2Music));
+        StartCoroutine(MusicTransitionCoroutine(level2Music, true));
     }
 
     public void ChangeToLevel3()
     {
-        StartCoroutine(MusicTransitionCoroutine(level3Music));
+        StartCoroutine(MusicTransitionCoroutine(level3Music,true));
     }
 
     public void ChangeToBossMusic()
     {
-        StartCoroutine(MusicTransitionCoroutine(bossMusic));
+        StartCoroutine(MusicTransitionCoroutine(bossMusic, true));
     }
 
     public void ChangeToLastSpeech()
     {
-        StartCoroutine(MusicTransitionCoroutine(lastSpeech));
+        StartCoroutine(MusicTransitionCoroutine(lastSpeech, false));
     }
     
-    private IEnumerator MusicTransitionCoroutine(AudioClip audioClip)
+    private IEnumerator MusicTransitionCoroutine(AudioClip audioClip, bool loop)
     {
         float timer = 0;
 
         if(newAudioSource != null)
             Destroy(newAudioSource.gameObject);
         newAudioSource = new GameObject().AddComponent<AudioSource>();
-        newAudioSource.loop = true;
+        newAudioSource.loop = loop;
         newAudioSource.clip = audioClip;
         newAudioSource.transform.parent = transform;
         newAudioSource.Play();
