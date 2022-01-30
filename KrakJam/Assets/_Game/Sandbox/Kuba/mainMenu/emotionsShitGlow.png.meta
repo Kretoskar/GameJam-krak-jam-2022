@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 640
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,6 +66,42 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -78,7 +114,1477 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: emotionsShitGlow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df3d29e07381e54391e7ff35a5bf9a1
+      internalID: -1426436696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959593cba86768f4bb3196597fee76fe
+      internalID: 897579503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132280adaff24544089cc71aaf8c993e
+      internalID: -50567451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2375e405b47f9c14dbdeca45c1f57333
+      internalID: 222725164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a77b38f47e7f1943b644a953fadd07b
+      internalID: 249701112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f4b4aa69c53b04ca562f167519722a
+      internalID: 1913277891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a650bf8097ab41b4082a1347d3c78dbd
+      internalID: 1013392750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4ebfdec1e3c3b498f1a7353bf9b34a
+      internalID: 622139741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ebac53c73fcfc45bcdd242d75ff321
+      internalID: -1911052534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff93f1419435e144a1c5ecff49dacc8
+      internalID: 196983956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_10
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a05b99570c316e46ba2e21addee277c
+      internalID: 1940562723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_11
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ba4a7f3446ecf46a99eef5a2beb523
+      internalID: -837592450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_12
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f285201fdd393c468bfdaafb8df35e4
+      internalID: -186712342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_13
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9339382a89a2dc84399071fbce2abd54
+      internalID: -2048230482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781d30958cc92cf4c903b86ad32559bc
+      internalID: -1303884590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b65b228105dfb54796e27d69240436e
+      internalID: 130128018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fb9b74c16905d49aa83f2c50c770a6
+      internalID: -2099346785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_17
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7ec07308501f42bd70fdc093096d8
+      internalID: 1999745809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_18
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f55c4a900865594782991e419a8b558
+      internalID: -251608937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_19
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bce9bb74bb7dc4d8804f60d1aa0999
+      internalID: -1182878404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_20
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a7348c1c4983542acdcc97d25f0e1d
+      internalID: -588761483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c3e7e67a38a464a821e80b25f81e52
+      internalID: 852621873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144c94ddc20362f458841829c51c29b1
+      internalID: 944004116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_23
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6af7e65bcae3bf41aea9ebe15acb06f
+      internalID: -1880948247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c211af814943045a4adcac26e825dd
+      internalID: -988617373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_25
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b4c8635a57aea4eb8ad9ee486b0b19
+      internalID: -1542629529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_26
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8fa23396ba40445aede6fc0ae8bda3
+      internalID: 1385946223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_27
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5966f815b04218a47b585f7bf828f776
+      internalID: -2095578706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962d7ced276aaa46a59d9a9aa998da5
+      internalID: -1108339771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18e82de61a5daa4c9d4ac9edf2cfa8b
+      internalID: 752498485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_30
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3ee699f29cd7345b8deda7ab004279
+      internalID: -240011687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_31
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfda002d446eb6e4f94ef9362d032253
+      internalID: 1836230140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c037a55c040edd4fbe1b6513eb9595a
+      internalID: -1180526339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_33
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7714e63f94a70be49b22aea25a2ab2fb
+      internalID: -938930142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_34
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5b2079ccbc0fa44ad98cc7387cb215
+      internalID: -379890406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da912bac1e566ab438d181f8841d730d
+      internalID: -1404660921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da815c6b1e3a6c644921ba94ec551558
+      internalID: -479616606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ac1f11aa3babe4a995d4272a72244b
+      internalID: 779146672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27b68065d67bbe43b576ba70fe0957d
+      internalID: 602221918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_39
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b902bb2965bcd541a7accc87804cc41
+      internalID: -1169632493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_40
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99230f74be035704abb6d81357ef8de8
+      internalID: 1424453641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_41
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2743f5a003ca4047a19a424bf441929
+      internalID: 763892187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b264df0dd19f848a4f94665fa25be4
+      internalID: -841006497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_43
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765241b39a869874b8021de6e3ea3333
+      internalID: 464704339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38860543eed5ca48a8464c51107552e
+      internalID: 1962824549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_45
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1205f80ef9536bf4a9005784b8372eae
+      internalID: -260654373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_46
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2682e9f1643fdc54b8552ab0854194d7
+      internalID: 656758915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_47
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70b8b34be006834ebc4a7d912bd45dc
+      internalID: -340042605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_48
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1db86952321ad4284570586fc61b34
+      internalID: 319603558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbf3d29aed9f164cbfd307c45ee1443
+      internalID: -1568819616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eeffd3c3b5c3f4189ca3fbb2cb9781
+      internalID: 1326975342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_51
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a126259bc3dfe1f4783ce91b6ecdac25
+      internalID: 412359867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_52
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336d183024165dc4399010803c76795c
+      internalID: -1460952167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_53
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea356d5ecb7037e4dab699519666673d
+      internalID: 1872119658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_54
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6faf92d43327254cb2315a00fbb1d03
+      internalID: 1572809617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_55
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90277ba31b28e149ae3b63e9af4eb3d
+      internalID: -1701496616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1b02dab1c580d4ea69fcaf8adafb92
+      internalID: 686822785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_57
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6908e8e3fe6fa842b3c016a0ec6bc5b
+      internalID: -471540512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_58
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd51f4dea451804ca98724dad34e00f
+      internalID: 1823381362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_59
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59358a7e4ff48f43a32c88fc3e27c64
+      internalID: 816786740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_60
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e15318d1b27c34abb4262e2593f995
+      internalID: -875806398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_61
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f723d4a0d09c9541a3bdb860498d0cc
+      internalID: -1454680041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_62
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235c2500ab77fa94589d92d3415aa161
+      internalID: 607804645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798dcb34a346be246846cc583d51c568
+      internalID: -1125287348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_64
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c186bac5dcfaf504c96f40c990bdaf05
+      internalID: 1522162164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_65
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab138a23de64f34c8fbf64f468f7bd7
+      internalID: -553841268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_66
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274b14f293a0e93409c389ba7d9e427b
+      internalID: -77209140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_67
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5f05dc404728844a692451ef8a9dab
+      internalID: -1131468601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_68
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51115f634b6e01b4e93aa696739b0669
+      internalID: 543077188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShitGlow_69
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0768dabafde7d5f45bf22b1e6cd80213
+      internalID: 1576914776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1595,77 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      emotionsShitGlow_22: 944004116
+      emotionsShitGlow_23: -1880948247
+      emotionsShitGlow_47: -340042605
+      emotionsShitGlow_50: 1326975342
+      emotionsShitGlow_17: 1999745809
+      emotionsShitGlow_15: 130128018
+      emotionsShitGlow_44: 1962824549
+      emotionsShitGlow_11: -837592450
+      emotionsShitGlow_29: 752498485
+      emotionsShitGlow_32: -1180526339
+      emotionsShitGlow_35: -1404660921
+      emotionsShitGlow_0: -1426436696
+      emotionsShitGlow_12: -186712342
+      emotionsShitGlow_58: 1823381362
+      emotionsShitGlow_43: 464704339
+      emotionsShitGlow_56: 686822785
+      emotionsShitGlow_60: -875806398
+      emotionsShitGlow_8: -1911052534
+      emotionsShitGlow_26: 1385946223
+      emotionsShitGlow_40: 1424453641
+      emotionsShitGlow_25: -1542629529
+      emotionsShitGlow_65: -553841268
+      emotionsShitGlow_34: -379890406
+      emotionsShitGlow_21: 852621873
+      emotionsShitGlow_67: -1131468601
+      emotionsShitGlow_16: -2099346785
+      emotionsShitGlow_27: -2095578706
+      emotionsShitGlow_48: 319603558
+      emotionsShitGlow_69: 1576914776
+      emotionsShitGlow_57: -471540512
+      emotionsShitGlow_55: -1701496616
+      emotionsShitGlow_49: -1568819616
+      emotionsShitGlow_24: -988617373
+      emotionsShitGlow_14: -1303884590
+      emotionsShitGlow_53: 1872119658
+      emotionsShitGlow_13: -2048230482
+      emotionsShitGlow_6: 1013392750
+      emotionsShitGlow_10: 1940562723
+      emotionsShitGlow_37: 779146672
+      emotionsShitGlow_59: 816786740
+      emotionsShitGlow_42: -841006497
+      emotionsShitGlow_52: -1460952167
+      emotionsShitGlow_18: -251608937
+      emotionsShitGlow_33: -938930142
+      emotionsShitGlow_61: -1454680041
+      emotionsShitGlow_66: -77209140
+      emotionsShitGlow_62: 607804645
+      emotionsShitGlow_5: 1913277891
+      emotionsShitGlow_68: 543077188
+      emotionsShitGlow_31: 1836230140
+      emotionsShitGlow_3: 222725164
+      emotionsShitGlow_20: -588761483
+      emotionsShitGlow_39: -1169632493
+      emotionsShitGlow_2: -50567451
+      emotionsShitGlow_51: 412359867
+      emotionsShitGlow_4: 249701112
+      emotionsShitGlow_19: -1182878404
+      emotionsShitGlow_30: -240011687
+      emotionsShitGlow_41: 763892187
+      emotionsShitGlow_7: 622139741
+      emotionsShitGlow_9: 196983956
+      emotionsShitGlow_63: -1125287348
+      emotionsShitGlow_36: -479616606
+      emotionsShitGlow_45: -260654373
+      emotionsShitGlow_54: 1572809617
+      emotionsShitGlow_46: 656758915
+      emotionsShitGlow_1: 897579503
+      emotionsShitGlow_38: 602221918
+      emotionsShitGlow_28: -1108339771
+      emotionsShitGlow_64: 1522162164
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 640
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,6 +66,42 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -78,7 +114,1372 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: emotionsShit_0
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f821f17145a89564a904d27eb53a86b1
+      internalID: -480957914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_1
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5184
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7ad5b5d8ea3104f8d9a5e3cb280278
+      internalID: 1380529846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a639ba1a601ec9a47a2c4ab9204b5dc4
+      internalID: -1086722923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_3
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055cbaf529bb93944ae0f4bf7f2a46be
+      internalID: 994559953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9ba23ee20c03742bd593f5640b5b73
+      internalID: 1111793456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_5
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2572de0c6c87d74cad082eb4a98c0ab
+      internalID: -1412953290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_6
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa94d81a364782c4f8b7e324ef1defdc
+      internalID: -308658883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_7
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb15b000691da8c4f8daaeaaf3898a27
+      internalID: -263239604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_8
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4608
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7a4f86a232a2642a29f1e852380cae
+      internalID: 2002527624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e5374ebacb0ed4a9ae30e708efa565
+      internalID: 1883436939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ee5d633beb49b45a5467671d84bc44
+      internalID: -737516753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_11
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bf4b877bd3c194c910d6e0a1022a10
+      internalID: 1736789792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91b2a38cd0195743b03768f861e82a5
+      internalID: -1972733271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_13
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d2e873b6570de4aa017dbdc9de6a9a
+      internalID: -990204361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_14
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb016957fbb72147b82c8d4b45d715f
+      internalID: -751375608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_15
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4032
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3216e026a983144acdd8824198b69d
+      internalID: 1090671267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6034c25131e7a4fb97fc81e27b7d04
+      internalID: -1636134503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131e324a8ee344743b45056f194df9ca
+      internalID: -1994329557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_18
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6910e0c4893b83249993d887eaedb723
+      internalID: 2081783237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_19
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10ccef280eac2644aef79748131abdb
+      internalID: -142947301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_20
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911ef6ac7d0973242be871aa919eb2de
+      internalID: 560074081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_21
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85bc041ffeb6864bb6379065e96f713
+      internalID: -1292856161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_22
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3456
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ddd90be8bede841b2ed8b216476d24
+      internalID: 1364329548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bcf0e7e0b2b0a4c80dd9835f9a9c17
+      internalID: 1687511387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e12ac1e2bc83d041ab8d637c285a07b
+      internalID: 582091555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_25
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44692de4f3d508f48bfedffc746a539a
+      internalID: 1415934540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_26
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed226feb3f26b2a4fab7d072e26e98fe
+      internalID: 175645608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_27
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c301ca6457ba08418fa3403ab2916ff
+      internalID: -1954741212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_28
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2508c14e723ac3d49a529c00132558f3
+      internalID: 814331313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_29
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2880
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538376550512ec04fbbdd3dd879dce68
+      internalID: 1160278738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa559397fce20b448c55a4459c7483d
+      internalID: -1225143336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb61dde802b2311439e15eebd3c670b5
+      internalID: -1556619260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fcbc034d4a18a4ca60d0711dab6ff1
+      internalID: 853105930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_33
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bba0887da3d1d419fbc1aaa9654e27
+      internalID: -2059678946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_34
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22e41c289a88014da158b83206a3466
+      internalID: -398622563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_35
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d72ec13313a03d41a01f06ad30a4030
+      internalID: 1668168947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_36
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2304
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e5567eb078297419fe01aacd304f4d
+      internalID: 1398451401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5cb8bff6fa89b4e8357a325837c31a
+      internalID: 101030854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9098996979b0b464492e08325d59e1c6
+      internalID: 746214723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_39
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9384c346b988e419673fec18b1c891
+      internalID: 1253223776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_40
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6656d753b11418d44901244bc36d5103
+      internalID: -2026614307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_41
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf21d78754f6f8f4abb323cc37e83119
+      internalID: -377298064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_42
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f04f9979f7f1774e97a9567c34cb878
+      internalID: -1387936702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_43
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1728
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99abfbe86dc32e74ca705ec4661cdaf2
+      internalID: -890284167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57559259bb799e4e8c33adad956b7e3
+      internalID: -1089999548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_45
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ebbaf0e4e5fe944a8d2b4c8f3978ad
+      internalID: -206450575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_46
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdafcec4385b91342812eb5b3f955832
+      internalID: -1138070242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_47
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db02999ed7d687c4dac19bf8edf0eff7
+      internalID: 1021435451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_48
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ee826c7f1c4a142b21f97e6120b894
+      internalID: 747135835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_49
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e233185625533854d9a1ee2ae7882635
+      internalID: -579657365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_50
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1152
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5326f5201927334394f27ceb44e9de9
+      internalID: -191894696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad089ea587641c48a0db2c4e715d9fb
+      internalID: 1699157556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6c44cff4b779942b9e3d7c0b0e2253
+      internalID: 1835271219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_53
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc1c3b4b0878cb4d9aadab667c60f8d
+      internalID: 936243021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_54
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479844489c2ebc14a877cf257578ac02
+      internalID: -308473680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_55
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f7c1b035ea26c4b95e4ccf5aa30ae1
+      internalID: 489868059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_56
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d1af640baf5bf47bef90a9004bb1bb
+      internalID: -1134318235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_57
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 576
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11cc6510a2742446be293f276299628
+      internalID: 331379440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f2a357ed6d829488b7bd698e870b24
+      internalID: 376159553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_59
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82902355026e9774f8e2d8f4dc603d58
+      internalID: -658540394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_60
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c57e09508ed3f24ca46d584e597ff5c
+      internalID: 1344580725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_61
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8569468d7087147bd180fe39e91827
+      internalID: -1512118989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_62
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fbd2aae1ca949409a07c68745db78c
+      internalID: -339951127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_63
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a1694f4aa642242b7ebfbf9edafb0f
+      internalID: 180675615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotionsShit_64
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d465a136b360d07458ddfe68b09b73bf
+      internalID: 1758676840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -88,8 +1489,75 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
-    nameFileIdTable: {}
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: d78b731e4b139534fa8690cc9af7b842, type: 3}
+      name: _Emission
+    nameFileIdTable:
+      emotionsShit_42: -1387936702
+      emotionsShit_44: -1089999548
+      emotionsShit_20: 560074081
+      emotionsShit_21: -1292856161
+      emotionsShit_30: -1225143336
+      emotionsShit_1: 1380529846
+      emotionsShit_38: 746214723
+      emotionsShit_5: -1412953290
+      emotionsShit_18: 2081783237
+      emotionsShit_60: 1344580725
+      emotionsShit_16: -1636134503
+      emotionsShit_8: 2002527624
+      emotionsShit_45: -206450575
+      emotionsShit_36: 1398451401
+      emotionsShit_13: -990204361
+      emotionsShit_48: 747135835
+      emotionsShit_61: -1512118989
+      emotionsShit_9: 1883436939
+      emotionsShit_11: 1736789792
+      emotionsShit_28: 814331313
+      emotionsShit_33: -2059678946
+      emotionsShit_46: -1138070242
+      emotionsShit_6: -308658883
+      emotionsShit_10: -737516753
+      emotionsShit_14: -751375608
+      emotionsShit_54: -308473680
+      emotionsShit_53: 936243021
+      emotionsShit_55: 489868059
+      emotionsShit_62: -339951127
+      emotionsShit_0: -480957914
+      emotionsShit_34: -398622563
+      emotionsShit_2: -1086722923
+      emotionsShit_4: 1111793456
+      emotionsShit_26: 175645608
+      emotionsShit_17: -1994329557
+      emotionsShit_37: 101030854
+      emotionsShit_35: 1668168947
+      emotionsShit_39: 1253223776
+      emotionsShit_41: -377298064
+      emotionsShit_7: -263239604
+      emotionsShit_19: -142947301
+      emotionsShit_25: 1415934540
+      emotionsShit_47: 1021435451
+      emotionsShit_64: 1758676840
+      emotionsShit_56: -1134318235
+      emotionsShit_3: 994559953
+      emotionsShit_22: 1364329548
+      emotionsShit_43: -890284167
+      emotionsShit_51: 1699157556
+      emotionsShit_29: 1160278738
+      emotionsShit_12: -1972733271
+      emotionsShit_57: 331379440
+      emotionsShit_32: 853105930
+      emotionsShit_40: -2026614307
+      emotionsShit_49: -579657365
+      emotionsShit_50: -191894696
+      emotionsShit_52: 1835271219
+      emotionsShit_63: 180675615
+      emotionsShit_23: 1687511387
+      emotionsShit_59: -658540394
+      emotionsShit_58: 376159553
+      emotionsShit_15: 1090671267
+      emotionsShit_31: -1556619260
+      emotionsShit_24: 582091555
+      emotionsShit_27: -1954741212
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
