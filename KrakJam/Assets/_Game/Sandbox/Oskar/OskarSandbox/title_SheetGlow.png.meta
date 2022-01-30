@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e793e90eee13c22418b3096434e02553
+guid: 503e7abc577284b4eb2e6c50cccad0b5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: title_Sheet_0
+      name: title_SheetGlow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,20 +124,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 061f2e116909be54a88c862e39ad733e
-      internalID: 1207261303
+      spriteID: f49b242420130b74da30fab0fdfe883b
+      internalID: -652419329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_1
+      name: title_SheetGlow_1
       rect:
         serializedVersion: 2
         x: 0
@@ -145,20 +145,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aa49154de7926b42bb3036b08ccf0ef
-      internalID: -457357423
+      spriteID: 870ae0bc527ecfd4abc1d899a3d92067
+      internalID: 2033137789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_2
+      name: title_SheetGlow_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,20 +166,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85d2fe515f2fba047b3bc31bb261edaf
-      internalID: -472576339
+      spriteID: 07e9cf5b9caa2634ba732a6f36f4a29b
+      internalID: 1725804501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_3
+      name: title_SheetGlow_3
       rect:
         serializedVersion: 2
         x: 0
@@ -187,20 +187,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29197d7689734cf458720ca8e220ca2a
-      internalID: -1834263763
+      spriteID: d9a111a09a116e54498ca44ec2e01ba8
+      internalID: -1396903400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_4
+      name: title_SheetGlow_4
       rect:
         serializedVersion: 2
         x: 0
@@ -208,20 +208,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a55c29f3eb9a86e4491265e29cf51209
-      internalID: 380659521
+      spriteID: 1e2a954b1c9330e4087941e188f6749d
+      internalID: -660341756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_5
+      name: title_SheetGlow_5
       rect:
         serializedVersion: 2
         x: 0
@@ -229,20 +229,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f972a6effd0cfc4b8a1eedf6a04a67b
-      internalID: -1665874973
+      spriteID: 96a9f02efe35d4844a753d9ec30cf30a
+      internalID: 229141602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_6
+      name: title_SheetGlow_6
       rect:
         serializedVersion: 2
         x: 0
@@ -250,20 +250,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 186154285b50a6847a97d9066c6674db
-      internalID: -1377328459
+      spriteID: 6269d9eca08268543850cb67a7c0eb3f
+      internalID: -331371567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_7
+      name: title_SheetGlow_7
       rect:
         serializedVersion: 2
         x: 0
@@ -271,20 +271,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d65fb5749dca0ee42b05177006cb0e71
-      internalID: -503449382
+      spriteID: 1772fa574acf5e041938cbb9346b1e5d
+      internalID: -1798551929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_8
+      name: title_SheetGlow_8
       rect:
         serializedVersion: 2
         x: 0
@@ -292,20 +292,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33dee1fb60a33974aa013a637f28fcf8
-      internalID: -2004962820
+      spriteID: d3ea68815d3593348ada33caed19883e
+      internalID: 498515258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_9
+      name: title_SheetGlow_9
       rect:
         serializedVersion: 2
         x: 0
@@ -313,20 +313,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c96c8294bb8c2f43b187b19c2a521b5
-      internalID: -1396153678
+      spriteID: 2b230500f9415224c81fc932712eeba0
+      internalID: 379963758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_10
+      name: title_SheetGlow_10
       rect:
         serializedVersion: 2
         x: 0
@@ -334,20 +334,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e21a2abe81b3dc4984aaf8d57b2fd89
-      internalID: 584203971
+      spriteID: 628783ae3c242454a8d2508df34f7793
+      internalID: 1348783064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_11
+      name: title_SheetGlow_11
       rect:
         serializedVersion: 2
         x: 0
@@ -355,20 +355,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4c690279557882429ea6aa106fb074e
-      internalID: 358978953
+      spriteID: 0796ea97d4836a840a8be31cc1482129
+      internalID: 599480377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_12
+      name: title_SheetGlow_12
       rect:
         serializedVersion: 2
         x: 0
@@ -376,20 +376,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd101bed5224af4db07ca5f96cfe3c5
-      internalID: 1943736582
+      spriteID: b8903b7b167c98e47a264354b04eb36e
+      internalID: -139827082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_13
+      name: title_SheetGlow_13
       rect:
         serializedVersion: 2
         x: 0
@@ -397,20 +397,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feb2672c891c43e47a0188c93dd68497
-      internalID: -1989210069
+      spriteID: 359b9c3a73b9ee44084c702fe5c2fedc
+      internalID: -1970314146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_14
+      name: title_SheetGlow_14
       rect:
         serializedVersion: 2
         x: 0
@@ -418,20 +418,20 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d6fa37173635414f897d719a8c7183f
-      internalID: 1330892617
+      spriteID: e7e4dd84da2252641bfb6b750f550a62
+      internalID: 570287254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_Sheet_15
+      name: title_SheetGlow_15
       rect:
         serializedVersion: 2
         x: 0
@@ -439,14 +439,14 @@ TextureImporter:
         width: 1000
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5284c4fcb9c076f4b9b4bd04986f580f
-      internalID: 1860807708
+      spriteID: 9626163c033756e49b093068efb205a5
+      internalID: -578510266
       vertices: []
       indices: 
       edges: []
@@ -460,26 +460,24 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 503e7abc577284b4eb2e6c50cccad0b5, type: 3}
-      name: _Emission
+    secondaryTextures: []
     nameFileIdTable:
-      title_Sheet_6: -1377328459
-      title_Sheet_15: 1860807708
-      title_Sheet_11: 358978953
-      title_Sheet_9: -1396153678
-      title_Sheet_13: -1989210069
-      title_Sheet_12: 1943736582
-      title_Sheet_7: -503449382
-      title_Sheet_10: 584203971
-      title_Sheet_3: -1834263763
-      title_Sheet_5: -1665874973
-      title_Sheet_2: -472576339
-      title_Sheet_1: -457357423
-      title_Sheet_8: -2004962820
-      title_Sheet_0: 1207261303
-      title_Sheet_14: 1330892617
-      title_Sheet_4: 380659521
+      title_SheetGlow_2: 1725804501
+      title_SheetGlow_3: -1396903400
+      title_SheetGlow_10: 1348783064
+      title_SheetGlow_12: -139827082
+      title_SheetGlow_14: 570287254
+      title_SheetGlow_0: -652419329
+      title_SheetGlow_5: 229141602
+      title_SheetGlow_4: -660341756
+      title_SheetGlow_8: 498515258
+      title_SheetGlow_11: 599480377
+      title_SheetGlow_6: -331371567
+      title_SheetGlow_1: 2033137789
+      title_SheetGlow_13: -1970314146
+      title_SheetGlow_15: -578510266
+      title_SheetGlow_7: -1798551929
+      title_SheetGlow_9: 379963758
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
