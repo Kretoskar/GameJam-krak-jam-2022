@@ -9,8 +9,8 @@ public class DeathButtons : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            GameAudio.Instance.ChangeToLevel1();
-            SceneManager.LoadScene(2);
+            //GameAudio.Instance.ChangeToLevel1();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }       
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
